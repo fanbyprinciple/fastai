@@ -38,7 +38,18 @@ How to open google collab for fast ai
       !curl -s https://course.fast.ai/setup/colab | bash
 
 4. save a copy in drive
+youll be automatically promted to run this
+
+from google.colab import drive
+drive.mount('/content/drive')
 
 5. Add the following lines in
     root_dir = "drive/My Drive/" 
     base_dir = root_dir + 'fastai-v3/' 
+
+# using render to deploy the models
+
+https://course.fast.ai/deployment_render.html
+
+# Details notes
+https://github.com/hiromis/notes/blob/master/Lesson2.md

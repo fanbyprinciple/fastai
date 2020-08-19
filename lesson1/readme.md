@@ -21,6 +21,21 @@ The wys in which we can extract data form the image samples
 TODO exercises suggested
 1. create your own dataset and apply the first notebook to create a custom classifier
 
+I created a warship classification for threat and non threat ships.
+
+![](dataset_ship.png)
+
+![](confusion_matrix.png)
+
+![](lr_plot.png)
+
+![](wrong_classified.png)
+
 2. look through splunnk with tensorflow article
 
+It was about creating user behavior patterns through profiling by mouse clicks
+
 3. Can you run resnet 50 dataset on colab 
+
+Didn't try yet.
+
