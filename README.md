@@ -23,6 +23,17 @@ Post setup checkup locally.
 
 However it is recommended that we take a cloud provider for running the state of the art models, my gtx 1050 can handle only so much.
 
+# Documentation
+
+inorder to know what a particular function does simply append ?? in front of the function
+for ex-
+
+`learn.predict??`
+
+for full documentation
+
+`doc(accuracy)`
+
 # Setting up FASTAI in colab
 
 ![](colab_gpu.png)
