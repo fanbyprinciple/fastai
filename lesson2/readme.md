@@ -49,9 +49,15 @@ At 25 minutes
 https://course.fast.ai/videos/?lesson=2
 
 
-# Looking closely at whats going on
+## Looking closely at whats going on
 
 The resnet 34 is just an architecture the reason the model takes up so uch space is because of the parameter value
+
+Using SGD on a random set of points generated:
+
+![](before_training.png)
+
+![](after_training.png)
 
 Gradient descent is an algorithm that minimizes functions. Given a function defined by a set of parameters, gradient descent starts with an initial set of parameter values and iteratively moves toward a set of parameter values that minimize the function. This iterative minimization is achieved by taking steps in the negative direction of the function gradient.
 
@@ -71,9 +77,11 @@ PArameters are the weight you predicted
 
 "If people are smart they must be horrible human beings to make things okay"
 
-TODO 
+# TODO 
 
 1. Make a web application using falsk and fast ai
+
+Tried wiht a mnist dataset but was not able to export the pickle file
 
 
 
