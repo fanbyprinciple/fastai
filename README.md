@@ -1,6 +1,10 @@
 # fastai
 my fast.ai v3 repo
  
+Note: The video lectures given in youtube and the site are very different. The best place is the site as the latest books are present.
+
+I am following the 2019 version would update to 2020 soon.
+
 ## installation
 
 bookmarked links: 

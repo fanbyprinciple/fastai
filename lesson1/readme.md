@@ -1,6 +1,8 @@
 Starts with introduction to course.
 Fine grain classification: classification between various categories.
 
+First neural network was created in 1943
+
 On the dataset :
 ![](good_doggos.png)
 
