@@ -50,7 +50,7 @@ How to open google collab for fast ai
 2. change runtime type to gpu
 
 3. install necessary packages
-      !curl -s https://course.fast.ai/setup/colab | bash
+    !curl -s https://course.fast.ai/setup/colab | bash
 
 4. save a copy in drive
 youll be automatically promted to run this
