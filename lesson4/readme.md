@@ -15,3 +15,16 @@ Using neural nets for tabular data
 Tabular data seems easy enough to understand and has lots of potential.
 
 ![](tabular__result.png)
+
+### Collaborative filtering
+for collaborative filtering we are using a dataset called movielens
+
+Coldstart problem : lack of data 
+
+![](cf_error.png)
+
+# Homework
+
+1. GO through the lesson 4 notes : https://github.com/hiromis/notes/blob/master/Lesson4.md
+2. Lesson 3 homework
+3. Try somthing with nlp
