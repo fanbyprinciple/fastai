@@ -59,6 +59,11 @@ anythong beginning with xx actually means unknown
 Numericalisation :
 we replace every token with a number 
 
+When we get data from a csv file we use splifrom_df and specify the column for validation set , labelfrom_df and specify the column for labels and then databunch()
+
+we are using a RNN here.
+
+
 ### Home work
 
 1. Run Imdb and imagea head pose by yourself too 
