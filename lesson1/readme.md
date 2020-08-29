@@ -41,3 +41,4 @@ It was about creating user behavior patterns through profiling by mouse clicks
 
 Didn't try yet.
 
+4. Submitted Dogs vs cat kernel redux competition at practice folder.
