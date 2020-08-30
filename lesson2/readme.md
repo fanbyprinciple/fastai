@@ -83,5 +83,9 @@ PArameters are the weight you predicted
 
 Tried wiht a mnist dataset but was not able to export the pickle file
 
+2. practicing on mnist
 
+![](./practice/mnist_0.png)
+
+Kaggle with 99.153 accuracy.
 
