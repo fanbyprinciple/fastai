@@ -23,6 +23,9 @@ Coldstart problem : lack of data
 
 ![](cf_error.png)
 
+we just had to load the data
+![](lt_rate.png)
+
 # Homework
 
 1. GO through the lesson 4 notes : https://github.com/hiromis/notes/blob/master/Lesson4.md

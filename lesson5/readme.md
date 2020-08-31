@@ -44,8 +44,32 @@ Neural network can work without bias however they are not as efficient
 
 ## Colab notebook discussion
 
+movie weight mapping:
+![](collab.png)
 
 In pytorch all classes are essentially functions
 
 when you call a class it actually calls the forward method of the class defined inside the class
 
+The details of the movie lens data set is int he collab notebook in lesson 4
+
+## Collab learner 
+
+![](collab_learner.png)
+
+Here is the collab_learner function. The collab learner function as per usual takes a data bunch. And normally learners also take something where you ask for particular architectural details. In this case, there's only one thing which does that which is basically do you want to use a multi-layer neural net or do you want to use a classic collaborative filtering
+
+
+Well basically we create an EmbeddingDotBias model, and then we pass back a learner which has our data and that model. So obviously all the interesting stuff is happening here in EmbeddingDotBias, so let's take a look at that.
+
+![](embedding_nn.png)
+
+ It is a nn.Module, so in PyTorch, to remind you, all PyTorch layers and models arenn.Module's. They are things that, once you create them, look exactly like a function. You call them with parentheses and you pass them arguments. But they're not functions. They don't even have __call__. Normally in Python, to make something look like a function, you have to give it a method called dunder call. Remember that means __call__, which doesn't exist here. The reason is that PyTorch actually expects you to have something called forward and that's what PyTorch will call for you when you call it like a function.
+
+ When I read the forward in a PyTorch module, I tend to ignore in my head the fact that there's a mini batch. And I pretend there's just one. Because PyTorch automatically handles all of the stuff about doing it to everything in the mini batch for you. So let's pretend there's just one user. So grab that user and what is this self.u_weight? self.u_weight is an embedding. We create an embedding for each of users by factors, items by factors, users by one, items by one. That makes sense, right? So users by one is the user's bias. Then users by factors is feature/embedding. So users by factors is the first tuple, so that's going to go in u_weight and (n_users,1) is the third, so that's going to go in u_bias.
+
+ nn.Module, it calls dunder init. So this is where we have to create our weight matrices. We don't normally create the actual weight matrix tensors. We normally use PyTorch's convenience functions to do that for us, and we're going to see some of that after the break. For now, just recognize that this function is going to create an embedding matrix for us. It's going to be a PyTorch nn.Module as well, so therefore to actually pass stuff into that embedding matrix and get activations out, you treat it as if it was a function - stick it in parentheses. So if you want to look in the PyTorch source code and find nn.Embedding, you will find there's something called .forward in there which will do this array lookup for us.
+
+# home work
+
+1. Try embedding model in movie lens latest dataset
