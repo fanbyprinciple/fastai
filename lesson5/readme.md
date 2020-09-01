@@ -70,12 +70,41 @@ Well basically we create an EmbeddingDotBias model, and then we pass back a lear
 
  nn.Module, it calls dunder init. So this is where we have to create our weight matrices. We don't normally create the actual weight matrix tensors. We normally use PyTorch's convenience functions to do that for us, and we're going to see some of that after the break. For now, just recognize that this function is going to create an embedding matrix for us. It's going to be a PyTorch nn.Module as well, so therefore to actually pass stuff into that embedding matrix and get activations out, you treat it as if it was a function - stick it in parentheses. So if you want to look in the PyTorch source code and find nn.Embedding, you will find there's something called .forward in there which will do this array lookup for us.
 
-# weight decay
+### weight decay
 It is the regularisation
 
-# subclassing
+### subclassing
 When you define a new class using an existing class
 
+### kwargs
+Concept of **kwargs in Python which is basically parameters that are going to get passed up the chain to the next thing that we call. So basically all of the learners will call eventually this constructor
+
+### Adam optimiser
+
+Adam uses something like momentum. 1/10 is the derivative and 9/10 is the momentum in the same direction.Adam is an imporvement on rmsprop.
+![](adam.png)
+
+You need learning rate annealing with adam
+
+### cross entropy loss
+
+predicting the wrong thing confidently should have a lot of loss than wrong thing without confidence
+
+it kind of a lookup for the log of the activation of the correcct answer.
+
+
+### softmax activation
+ activation so that all the prediction again activations add upto 1
+
+ It is just activation / sum of all the activation
+
+
+multiplw label models you need crossentropy as your loss
+ and softmax as your activation
+
+ In pytorch it actually does the softmax activation after cross_entropy loss
+
+If the loss is negative then we need to call cross entropy function ourselves.
 
 # home work
 
@@ -83,6 +112,8 @@ When you define a new class using an existing class
  Done:
  ![](recorder_plot.png)
 
-2. do lesson 2
+2. lesson 2 sgd add momentum
 
-Mnist sgd
+3. do lesson 2 Mnist sgd
+
+4. Look at the tabular notebook
