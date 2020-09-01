@@ -1,7 +1,7 @@
 # Foundations of neural networks
 https://www.youtube.com/watch?v=CJKnDu2dxOE&vl=en
 
-1 hour 7 min
+1 hour 28 min
 
 https://github.com/hiromis/notes/blob/master/Lesson5.md
 
@@ -70,6 +70,19 @@ Well basically we create an EmbeddingDotBias model, and then we pass back a lear
 
  nn.Module, it calls dunder init. So this is where we have to create our weight matrices. We don't normally create the actual weight matrix tensors. We normally use PyTorch's convenience functions to do that for us, and we're going to see some of that after the break. For now, just recognize that this function is going to create an embedding matrix for us. It's going to be a PyTorch nn.Module as well, so therefore to actually pass stuff into that embedding matrix and get activations out, you treat it as if it was a function - stick it in parentheses. So if you want to look in the PyTorch source code and find nn.Embedding, you will find there's something called .forward in there which will do this array lookup for us.
 
+# weight decay
+It is the regularisation
+
+# subclassing
+When you define a new class using an existing class
+
+
 # home work
 
 1. Try embedding model in movie lens latest dataset
+ Done:
+ ![](recorder_plot.png)
+
+2. do lesson 2
+
+Mnist sgd
