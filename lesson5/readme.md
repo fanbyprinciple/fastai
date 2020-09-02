@@ -113,7 +113,7 @@ If the loss is negative then we need to call cross entropy function ourselves.
  ![](recorder_plot.png)
 
 2. lesson 2 sgd add momentum
-
+ ![](sgd.gif)   
 3. do lesson 2 Mnist sgd
 
 4. Look at the tabular notebook
