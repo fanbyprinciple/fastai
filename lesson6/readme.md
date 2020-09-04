@@ -7,7 +7,7 @@ After looking at tabular dataset we can actually tackle the Rossman store sakes 
 Video : https://www.youtube.com/watch?v=hkBa9pU-H48
 notes : https://github.com/hiromis/notes/blob/master/Lesson6.md
 
-# Lesson6 rossemann notebook
+## Lesson6 rossemann notebook
 
 In competition, It uses Root mean squared percent error
 
@@ -35,3 +35,22 @@ Categorical vs continuos variables
  doc(floatlist ) will give you more information
 
  Dropout ar 30:02
+
+## Lesson6 pets revisted notebook
+
+1. The notebook showcases various transforms
+
+![](cat.png)
+
+2. We can use the notebook features for heatmap generation
+
+https://setosa.io/ev/image-kernels/
+
+hook : They came from something called a hook. A hook is a really cool, more advanced PyTorch feature that lets you (as the name suggests) hook into the PyTorch machinery itself, and run any arbitrary Python code you want to. 
+
+Average pooling converts a 11 by 11 by 512 to 512 by 1 vector.
+
+# HOmework 
+1. creating a minibatch without using data.ine_item
+2. change the convolutional map network
+3. do rosemann dataset
