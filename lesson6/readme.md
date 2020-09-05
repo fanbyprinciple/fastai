@@ -17,6 +17,7 @@ Transforms are bits of code that run every time something is grabbed from a data
 
  Preprocesses are like transforms, but they're a little bit different which is that they run once before you do any training. Really importantly, they run once on the training set and then any kind of state or metadata that's created is then shared with the validation and test set.
 
+![](rosemann_cleaning.png)
 Categorify does basically the same thing that .classes thing for image recognition does for a dependent variable. 
 
 Fillmissing This will create, for anything that has a missing value, it'll create an additional column with the column name underscore na (e.g. CompetitionDistance_na) and it will set it for true for any time that was missing
