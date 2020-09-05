@@ -37,6 +37,9 @@ Categorical vs continuos variables
 
  Dropout ar 30:02
 
+Bug in rosemann training data length less than testing data:
+![](rosemann_bug.png)
+
 ## Lesson6 pets revisted notebook
 
 1. The notebook showcases various transforms
