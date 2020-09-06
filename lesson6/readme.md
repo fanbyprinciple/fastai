@@ -4,8 +4,8 @@ check out the website: platform.ai
 
 After looking at tabular dataset we can actually tackle the Rossman store sakes dataset at kaggle.
 
-Video : https://www.youtube.com/watch?v=hkBa9pU-H48
-notes : https://github.com/hiromis/notes/blob/master/Lesson6.md
+Video : <https://www.youtube.com/watch?v=hkBa9pU-H48>
+notes : <https://github.com/hiromis/notes/blob/master/Lesson6.md>
 
 ## Lesson6 rossemann notebook
 
@@ -54,7 +54,8 @@ hook : They came from something called a hook. A hook is a really cool, more adv
 
 Average pooling converts a 11 by 11 by 512 to 512 by 1 vector.
 
-# HOmework 
+# HOmework
+
 1. creating a minibatch without using data.ine_item
 2. change the convolutional map network
 3. do rosemann dataset
