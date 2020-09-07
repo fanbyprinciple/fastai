@@ -36,11 +36,35 @@ Here we do something different as in we use pretrained models for both generator
 
 It doesn't use pretrained models
 
+### SUPERRES NOTEBOOK
 
+![](superres_data.png)
 
-# Homework
+We can use somthing called feature map to remove gan 
+completely.
+
+![](superres_loss.png)
+
+features are taken just before the activations
+
+![](superres_initial_run.png)
+
+### Human numbers
+
+Need to do
+
+## Homework
 
 1. Do resnet paper
 2. Note what Jeremy says about creating new images in Image restration by looking thorugh hirmis notebook .
 3. run rosemann with removing the non zero thing
 4. at 1 hr mark in video
+5. Look at delorify on github
+6. medium blog
+7. Dev project index
+8. Human numbers
+
+## Jeremy's advice
+
+1. Avoid todo at all costs complete what you start...hmm
+2. Recreate all notebooks can you do it.
