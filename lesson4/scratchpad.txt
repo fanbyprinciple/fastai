@@ -1,6 +1,0 @@
-/root/.fastai/data/dogs_vs_cats/train/dog.2970.jpg
-/root/.fastai/data/dogs_vs_cats/train/dog.2970.jpg
-/root/.fastai/data/dogs_vs_cats/train/dog.2970.jpg
-/root/.fastai/data/dogs_vs_cats/train/dog.2970.jpg
-/root/.fastai/data/dogs_vs_cats/train/dog.2970.jpg
-/root/.fastai/data/dogs_vs_cats/train/dog.2970.jpg
