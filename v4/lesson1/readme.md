@@ -29,6 +29,7 @@ Here's a list of some of the thousands of tasks in different areas at which deep
 
 4. working on malware dataset can be really fun:
  for example data set available at: https://www.dropbox.com/s/ep8qjakfwh1rzk4/malimg_dataset.zip?dl=0
+![](malware.png)
 
 5. Working on camvid:
 
@@ -47,3 +48,7 @@ in fastai.collab module there is no untar_data is this a worthy issue to notify 
 8. Simplest tabular example:
 
 ![](tabular.png)
+
+9. If you are an organisation, then always hide test data from the clients.
+
+10. 
