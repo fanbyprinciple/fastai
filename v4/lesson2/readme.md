@@ -1,3 +1,6 @@
+Open the notebook in a binder: 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fanbyprinciple/fastai/master?filepath=blob%2Fmaster%2Fv4%2Flesson2%2FLCJ_classifier%2520(2).ipynb)
+
 # Observations
 
 1. In segementation we try ans classify every pixel to the object it belongs to
