@@ -13,3 +13,7 @@ window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));
 5. Creating a leopard, jaguar, cheetah classifier
     Data Augmentation:
     ![](data_aug.png)
+6. Using ipywidgets in notebook itself:
+    ![](note_app.png)
+
+7. 
