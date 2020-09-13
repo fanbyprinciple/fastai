@@ -16,4 +16,8 @@ window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));
 6. Using ipywidgets in notebook itself:
     ![](note_app.png)
 
-7. 
+7.  Homework
+    a. Use it on an image of your choice
+        ![](wahle.png) still have to submit.
+    b. deploy using flask
+    c. start a blog
