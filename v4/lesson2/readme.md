@@ -17,7 +17,13 @@ window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));
     ![](note_app.png)
 
 7.  Homework
+
     a. Use it on an image of your choice
         ![](wahle.png) still have to submit.
+
+        kannad mnist :
+       ![](kannada.png) need to edit it to v4 version
+
     b. deploy using flask
     c. start a blog
+
