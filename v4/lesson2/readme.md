@@ -27,5 +27,7 @@ window.open('data:text/csv;charset=utf-8,' + escape(urls.join('\n')));
         kannad mnist :
        ![](kannada.png) need to edit it to v4 version
 
+       fashion_mnist:
+       ![](fashion.png)
     b. deploy using flask
     c. start a blog
