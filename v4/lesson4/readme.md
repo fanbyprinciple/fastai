@@ -141,7 +141,54 @@ That little function res.max(tensor(0.0)) is called a rectified linear unit, als
 
 ![](relu.png)
 
+Congratulations: you now know how to create and train a deep neural network from scratch! We've gone through quite a few steps to get to this point, but you might be surprised at how simple it really is.
+
+Now that we are at this point, it is a good opportunity to define, and review, some jargon and key concepts.
+
+A neural network contains a lot of numbers, but they are only of two types: numbers that are calculated, and the parameters that these numbers are calculated from. This gives us the two most important pieces of jargon to learn:
+
+- Activations:: Numbers that are calculated (both by linear and nonlinear layers)
+- Parameters:: Numbers that are randomly initialized, and optimized (that is, the numbers that define the model)
+
+We will often talk in this book about activations and parameters. Remember that they have very specific meanings. They are numbers. They are not abstract concepts, but they are actual specific numbers that are in your model. Part of becoming a good deep learning practitioner is getting used to the idea of actually looking at your activations and parameters, and plotting them and testing whether they are behaving correctly.
+
+Our activations and parameters are all contained in *tensors*. These are simply regularly shaped arrays—for example, a matrix. Matrices have rows and columns; we call these the *axes* or *dimensions*. The number of dimensions of a tensor is its *rank*. There are some special tensors:
+
+- Rank zero: scalar
+- Rank one: vector
+- Rank two: matrix
+
+A neural network contains a number of layers. Each layer is either *linear* or *nonlinear*. We generally alternate between these two kinds of layers in a neural network. Sometimes people refer to both a linear layer and its subsequent nonlinearity together as a single layer. Yes, this is confusing. Sometimes a nonlinearity is referred to as an *activation function*.
+
+![](learn_recorder.png)
+
+<<dljargon1>> summarizes the key concepts related to SGD.
+
+```asciidoc
+[[dljargon1]]
+.Deep learning vocabulary
+[options="header"]
+|=====
+| Term | Meaning
+|ReLU | Function that returns 0 for negative numbers and doesn't change positive numbers.
+|Mini-batch | A smll group of inputs and labels gathered together in two arrays. A gradient descent step is updated on this batch (rather than a whole epoch).
+|Forward pass | Applying the model to some input and computing the predictions.
+|Loss | A value that represents how well (or badly) our model is doing.
+|Gradient | The derivative of the loss with respect to some parameter of the model.
+|Backard pass | Computing the gradients of the loss with respect to all model parameters.
+|Gradient descent | Taking a step in the directions opposite to the gradients to make the model parameters a little bit better.
+|Learning rate | The size of the step we take when applying SGD to update the parameters of the model.
+|=====
+```
+
 ### Homework
 
-1. TGS salt at kaggle, segmentation algorith
+1. TGS salt at kaggle, segmentation algorithm
 
+2. create a corelation table between manual and the api based function used in the notebook
+
+3. [if(i%2==0):i*2 i for i in array]
+
+4. Create your own implementation of Learner from scratch, based on the training loop shown in this chapter.
+
+5. Complete all the steps in this chapter using the full MNIST datasets (that is, for all digits, not just 3s and 7s). This is a significant project and will take you quite a bit of time to complete! You'll need to do some of your own research to figure out how to overcome some obstacles you'll meet on the way.
