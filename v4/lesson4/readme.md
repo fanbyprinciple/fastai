@@ -181,6 +181,11 @@ A neural network contains a number of layers. Each layer is either *linear* or *
 |=====
 ```
 
+## working with all mnist
+
+![](allmnist_initial.png)
+
+
 ### Homework
 
 1. TGS salt at kaggle, segmentation algorithm
