@@ -185,6 +185,9 @@ A neural network contains a number of layers. Each layer is either *linear* or *
 
 ![](allmnist_initial.png)
 
+Am not able to create a validation set 
+![](allmnist_no_label_in_test.png)
+
 
 ### Homework
 
