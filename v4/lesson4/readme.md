@@ -2,7 +2,7 @@
 
 Training a digit classifier
 
-![](three_top.png)
+![](./img/three_top.png)
 
 
 https://colab.research.google.com/drive/1MybjxDCbLLJCVQR5Ahu552VqDRJosHFG#scrollTo=bptSpUapoHgH
@@ -24,7 +24,7 @@ There's one guaranteed way to fail, and that's to stop trying. We've seen that t
 
 Here we are using the python imaging library (PIL) which is the widely used Python package for opening, manipulating and viewing images.
 
-![](new_3.png)
+![](./img/new_3.png)
 
 to see the image we need to convert it into a Numpy array or a pytorch tensor
 
@@ -39,7 +39,7 @@ Here mse stands for mean squared error, and l1 refers to the standard mathematic
 : Intuitively, the difference between L1 norm and mean squared error (MSE) is that the latter will penalize bigger mistakes more heavily than the former (and be more lenient with small mistakes).
 
 For our simple avergaing model the loss:
-![](loss_average.png)
+![](./img/loss_average.png)
 
 Numpy and pytorch array they both are wrapper function that help you deal with array efficiently
 
@@ -53,7 +53,7 @@ It does the whole calculation in C (or, if you're using a GPU, in CUDA, the equi
 Finally, our function calls mean((-1,-2)). The tuple (-1,-2) represents a range of axes. In Python, -1 refers to the last element, and -2 refers to the second-to-last. So in this case, this tells PyTorch that we want to take the mean ranging over the values indexed by the last two axes of the tensor. The last two axes are the horizontal and vertical dimensions of an image. After taking the mean over the last two axes, we are left with just the first tensor axis, which indexes over our images, which is why our final size was (1010). In other words, for every image, we averaged the intensity of all the pixels in that image.
 
 But how are we calculating accuracy this way ?
-![](accuracy_waht.png)
+![](./img/accuracy_waht.png)
 
 One drawback of pixel based model is that we cannot use learning
 
@@ -73,7 +73,7 @@ Step (that is, change) all the weights based on that calculation.
 Go back to the step 2, and repeat the process.
 Iterate until you decide to stop the training process (for instance, because the model is good enough or you don't want to wait any longer).
 
-![](plot_quad.png)
+![](./img/plot_quad.png)
 
 ### Calculating gradients
 
@@ -86,15 +86,15 @@ pytorch has a gradient function
 
 Notice the special method requires_grad_? That's the magical incantation we use to tell PyTorch that we want to calculate gradients with respect to that variable at that value. It is essentially tagging the variable, so PyTorch will remember to keep track of how to compute gradients of the other, direct calculations on it that you will ask for.
 
-![](sgd_initial.png)
+![](./img/sgd_initial.png)
 
 a: This API might throw you off if you're coming from math or physics. In those contexts the "gradient" of a function is just another function (i.e., its derivative), so you might expect gradient-related APIs to give you a new function. But in deep learning, "gradients" usually means the value of a function's derivative at a particular argument value. 
 
-![](sgd_subsequent.png)
+![](./img/sgd_subsequent.png)
 
 after 140 iterations:
 
-![](after_140.png)
+![](./img/after_140.png)
 
 SGD summary:
 
@@ -113,7 +113,7 @@ Unfortunately, we have a significant technical problem here. The gradient of a f
 
 sigmoid to get values between 0 and 1
 
-![](sigmoid.png)
+![](./img/sigmoid.png)
 
 The key difference is that the metric is to drive human understanding and the loss is to drive automated learning. To drive automated learning, the loss must be a function that has a meaningful derivative. It can't have big flat sections and large jumps, but instead must be reasonably smooth. This is why we designed a loss function that would respond to small changes in confidence level. This requirement means that sometimes it does not really reflect exactly what we are trying to achieve, but is rather a compromise between our real goal, and a function that can be optimized using its gradient. The loss function is calculated for each item in our dataset, and then at the end of an epoch the loss values are all averaged and the overall mean is reported for the epoch.
 
@@ -139,7 +139,7 @@ The key point about this is that w1 has 30 output activations (which means that 
 
 That little function res.max(tensor(0.0)) is called a rectified linear unit, also known as ReLU. We think we can all agree that rectified linear unit sounds pretty fancy and complicated... But actually, there's nothing more to it than res.max(tensor(0.0))—in other words, replace every negative number with a zero. This tiny function is also available in PyTorch as F.relu:
 
-![](relu.png)
+![](./img/relu.png)
 
 Congratulations: you now know how to create and train a deep neural network from scratch! We've gone through quite a few steps to get to this point, but you might be surprised at how simple it really is.
 
@@ -160,7 +160,7 @@ Our activations and parameters are all contained in *tensors*. These are simply 
 
 A neural network contains a number of layers. Each layer is either *linear* or *nonlinear*. We generally alternate between these two kinds of layers in a neural network. Sometimes people refer to both a linear layer and its subsequent nonlinearity together as a single layer. Yes, this is confusing. Sometimes a nonlinearity is referred to as an *activation function*.
 
-![](learn_recorder.png)
+![](./img/learn_recorder.png)
 
 <<dljargon1>> summarizes the key concepts related to SGD.
 
@@ -183,10 +183,14 @@ A neural network contains a number of layers. Each layer is either *linear* or *
 
 ## working with all mnist
 
-![](allmnist_initial.png)
+![](./img/allmnist_initial.png)
 
 Am not able to create a validation set 
-![](allmnist_no_label_in_test.png)
+![](./img/allmnist_no_label_in_test.png)
+
+
+Now this error in train
+![](./img/allmnist_train_y.png)
 
 
 ### Homework
@@ -200,3 +204,4 @@ Am not able to create a validation set
 4. Create your own implementation of Learner from scratch, based on the training loop shown in this chapter.
 
 5. Complete all the steps in this chapter using the full MNIST datasets (that is, for all digits, not just 3s and 7s). This is a significant project and will take you quite a bit of time to complete! You'll need to do some of your own research to figure out how to overcome some obstacles you'll meet on the way.
+
