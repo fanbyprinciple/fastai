@@ -195,6 +195,9 @@ Now this error in train
 Solving that now I dont know the correct way of predictions
 ![](./img/allmnist_prediction.png)
 
+All mnist finally able to run learner
+![](./img/allmnist_bad_model.png)
+
 ### Homework
 
 1. TGS salt at kaggle, segmentation algorithm
