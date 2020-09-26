@@ -192,6 +192,8 @@ Am not able to create a validation set
 Now this error in train
 ![](./img/allmnist_train_y.png)
 
+Solving that now I dont know the correct way of predictions
+![](./img/allmnist_prediction.png)
 
 ### Homework
 
