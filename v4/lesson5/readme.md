@@ -1,5 +1,9 @@
 # Important things in the chapter
 
+## Implementation standpoint
+    It shows how to use regex to get images form directory with preprocessing and cnnlearner.
+## other
+
  getting your image data ready for modeling (
      presizing, 
      data block summary) 
@@ -16,6 +20,38 @@
 Cute guys:
 
 ![](cute.png)
+
+
+## Questions
+
+1. Why do we first resize to a large size on the CPU, and then to a smaller size on the GPU?
+
+
+
+1. If you are not familiar with regular expressions, find a regular expression tutorial, and some problem sets, and complete them. Have a look on the book's website for suggestions.
+1. What are the two ways in which data is most commonly provided, for most deep learning datasets?
+1. Look up the documentation for `L` and try using a few of the new methods is that it adds.
+1. Look up the documentation for the Python `pathlib` module and try using a few methods of the `Path` class.
+1. Give two examples of ways that image transformations can degrade the quality of the data.
+1. What method does fastai provide to view the data in a `DataLoaders`?
+1. What method does fastai provide to help you debug a `DataBlock`?
+1. Should you hold off on training a model until you have thoroughly cleaned your data?
+1. What are the two pieces that are combined into cross-entropy loss in PyTorch?
+1. What are the two properties of activations that softmax ensures? Why is this important?
+1. When might you want your activations to not have these two properties?
+1. Calculate the `exp` and `softmax` columns of <<bear_softmax>> yourself (i.e., in a spreadsheet, with a calculator, or in a notebook).
+1. Why can't we use `torch.where` to create a loss function for datasets where our label can have more than two categories?
+1. What is the value of log(-2)? Why?
+1. What are two good rules of thumb for picking a learning rate from the learning rate finder?
+1. What two steps does the `fine_tune` method do?
+1. In Jupyter Notebook, how do you get the source code for a method or function?
+1. What are discriminative learning rates?
+1. How is a Python `slice` object interpreted when passed as a learning rate to fastai?
+1. Why is early stopping a poor choice when using 1cycle training?
+1. What is the difference between `resnet50` and `resnet101`?
+1. What does `to_fp16` do?
+
+
 
 Now if we are going to understand how to extract the breed of each pet from each image we're going to need to understand how this data is laid out. Such details of data layout are a vital piece of the deep learning puzzle. Data is usually provided in one of these two ways:
 
