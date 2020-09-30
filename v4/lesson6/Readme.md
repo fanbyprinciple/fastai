@@ -61,3 +61,9 @@ The equivalent for single-label datasets (like MNIST or the Pet dataset), where 
 1. it would be a great exercise for you to go back to your image classifier application, and try to retrain it using the multi-label technique, then test it by passing in an image that is not of any of your recognized classes.
 
 1. Go back to chapter 1 and start over with multi label on bear.
+
+whatsapp image classifier:
+![whatsapp](whatsapp_image_classifier.png)
+
+Multi label ?
+![whatsapp_multi](whatsapp_multi.png)
