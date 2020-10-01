@@ -50,5 +50,9 @@ in fastai.collab module there is no untar_data is this a worthy issue to notify 
 ![](tabular.png)
 
 9. If you are an organisation, then always hide test data from the clients.
+_
+10. Fruits example
+![](fruits1.png)
 
-10. 
+Artistic confusion matrix
+![](fruits2.png)
