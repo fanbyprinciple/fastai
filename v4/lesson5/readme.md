@@ -22,6 +22,14 @@ Cute guys:
 ![](cute.png)
 
 
+Trying multilabel tricsk on a kaggle histopathologic cancer dataset
+
+![hcd](hcd.png)
+
+kaggle score:
+![hcd_kaggle](hcd_kaggle.png)
+
+
 ## Questions
 
 1. Why do we first resize to a large size on the CPU, and then to a smaller size on the GPU?

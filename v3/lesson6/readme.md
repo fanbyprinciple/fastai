@@ -48,14 +48,18 @@ Bug in rosemann training data length less than testing data:
 
 2. We can use the notebook features for heatmap generation
 
-https://setosa.io/ev/image-kernels/
+<https://setosa.io/ev/image-kernels/>
 
 hook : They came from something called a hook. A hook is a really cool, more advanced PyTorch feature that lets you (as the name suggests) hook into the PyTorch machinery itself, and run any arbitrary Python code you want to. 
 
 Average pooling converts a 11 by 11 by 512 to 512 by 1 vector.
 
-# HOmework
+## HOmework
 
 1. creating a minibatch without using data.ine_item
 2. change the convolutional map network
 3. do rosemann dataset
+
+## Examples nice
+
+<https://www.kaggle.com/mamamot/fastai-v2-example>
