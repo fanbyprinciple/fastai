@@ -67,3 +67,6 @@ whatsapp image classifier:
 
 Multi label ?
 ![whatsapp_multi](whatsapp_multi.png)
+
+Pneumonia dataset
+![pnuemonia]([pneumonia.png])

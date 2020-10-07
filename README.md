@@ -13,30 +13,47 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
   * Tabular data:
 
     * Heart disease classification: <https://www.kaggle.com/ronitf/heart-disease-uci>
+
   * Recommendation System:
 
     * Create an Artificial Sommelier: <https://www.kaggle.com/zynicide/wine-reviews>
+
   * Time series:
 
     * Suicide prediction: <https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016>
+
   * Computer Vision:
 
     * Histopathologic cancer : <https://www.kaggle.com/mentalwanderer/image-classification-workflow-with-fast-ai>
+
+    * Chest X-tay Images : <https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia>
+
     * Plant Pathology: <https://www.kaggle.com/c/plant-pathology-2020-fgvc7>
+
     * Malaria infection classification: <https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria>
+
     * Dog breed classification: <https://www.kaggle.com/jessicali9530/stanford-dogs-dataset>
+
     * Image segmentation - lunar - <https://www.kaggle.com/romainpessia/artificial-lunar-rocky-landscape-dataset>
+
     * Fruits classification - <https://www.kaggle.com/moltean/fruits>
+
     * Detect the artist, based on the image: <https://www.kaggle.com/ikarus777/best-artworks-of-all-time>
+
   * NLP:
 
     * Sarcasm detection: <https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection>
+
     * Open analysis: Predict startup success by media mentions & comments - <https://www.kaggle.com/hacker-news/hacker-news>
+
   * GAN:
   
     * Create realistic images of the moon: <https://www.kaggle.com/romainpessia/artificial-lunar-rocky-landscape-dataset>
+
     * Image restoration model (using GAN and fastai 'crapify' idea)
+
     * Style transfer
+
 * Open lesson for going through practical applications with the fastai library.
 * What next, how to keep going, and [keep learning](https://github.com/MicPie/fastai-pytorch-course-vienna#learning-tips)!
 
