@@ -37,7 +37,7 @@ it will have user on left and movies on top with the random initialised latent f
 1. Write the code to create a crosstab representation of the MovieLens data (you might need to do some web searching!).
 
 okay.
-![crosstab](./img/crosstab.png)
+![crosstab](./img/crosstab1.png)
 
 1. What is a latent factor? Why is it "latent"?
 
@@ -55,7 +55,7 @@ Inner joins is the most common of join. An inner join combines two DataFrames ba
 
 1. What is an embedding matrix?
 
-a look up table, a dictionary
+a look up table, embedding is a way to access the latent factors using an index without creating one hot vectors which will need more space.
 
 1. What is the relationship between an embedding and a matrix of one-hot-encoded vectors?
 
@@ -86,28 +86,106 @@ users list.
 1. Rewrite the `DotProduct` class (without peeking, if possible!) and train a model with it.
 
 hmm okay.
+
+```python
+class dotProduct():
+    def __init__(self, n_users, n_movies, n_factors):
+        self.user_factors = Embedding(n_users, n_factors)
+        self.movie_factors = Embedding(n_movies, n_factors)
+
+    def forward(self,x):
+        users = self.user_factors(x[:,0])
+        movies = self.movie_factors(x[:,1])
+        return (user* movies).sum()
+```
+
 will do this and also look at embedding.
 
 1. What is a good loss function to use for MovieLens? Why? 
+
+MSELossFlat
+
 1. What would happen if we used cross-entropy loss with MovieLens? How would we need to change the model?
+
+don't know will try
+
 1. What is the use of bias in a dot product model?
+
+bias helps cater for bias of the audience
+
 1. What is another name for weight decay?
+
+L2 regularisation
+
 1. Write the equation for weight decay (without peeking!).
+
+`loss + wd *(parameters **2).sum()`
+
 1. Write the equation for the gradient of weight decay. Why does it help reduce weights?
+
+`wd * 2 * parameters`
+
+because it adds to the loss function.
+
 1. Why does reducing weights lead to better generalization?
+
+because then there are no more sharp variations in the loss function
+
 1. What does `argsort` do in PyTorch?
+
+returns indices that sort the tensor by value in a particular direction
+
 1. Does sorting the movie biases give the same result as averaging overall movie ratings by movie? Why/why not?
+
+should be no. dont. know.
+should revise andre ng notes for this.
+
 1. How do you print the names and details of the layers in a model?
+
+learn.model
+
 1. What is the "bootstrapping problem" in collaborative filtering?
+
+when you have no data at the start
+
 1. How could you deal with the bootstrapping problem for new users? For new movies?
+
+having an initial questionaire
+
 1. How can feedback loops impact collaborative filtering systems?
+
+It will hwlp narrow down on individual user bias
+
 1. When using a neural network in collaborative filtering, why can we have different numbers of factors for movies and users?
+
+because latent factors might be differnet for user and movies
+
 1. Why is there an `nn.Sequential` in the `CollabNN` model?
+
+for creating a neural net
+
 1. What kind of model should we use if we want to add metadata about users and items, or information such as date and time, to a collaborative filtering model?
+
+neural net. maybe. why are these so hard.
 
 ### Further Research
 
 1. Take a look at all the differences between the `Embedding` version of `DotProductBias` and the `create_params` version, and try to understand why each of those changes is required. If you're not sure, try reverting each change to see what happens. (NB: even the type of brackets used in `forward` has changed!)
+
+what is this talking about.
+
 1. Find three other areas where collaborative filtering is being used, and find out what the pros and cons of this approach are in those areas.
+
+okay
+netflix, amazon, flipkart
+
 1. Complete this notebook using the full MovieLens dataset, and compare your results to online benchmarks. See if you can improve your accuracy. Look on the book's website and the fast.ai forum for ideas. Note that there are more columns in the full dataset—see if you can use those too (the next chapter might give you ideas).
+
+using full movielens data to complete the assignment
+using barebones :
+
+![barebone](./img/barebone_result.png)
+
 1. Create a model for MovieLens that works with cross-entropy loss, and compare it to the model in this chapter.
+
+working with cross entropy loss, would have tried it even if not explicitly stated

@@ -18,6 +18,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
 
     * Create an Artificial Sommelier: <https://www.kaggle.com/zynicide/wine-reviews>
 
+    * Movie lens data: <https://www.kaggle.com/prajitdatta/movielens-100k-dataset/notebooks?sortBy=relevance&group=everyone&search=Fast&page=1&pageSize=20&datasetId=626>
+
   * Time series:
 
     * Suicide prediction: <https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016>
