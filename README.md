@@ -14,6 +14,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
 
     * Heart disease classification: <https://www.kaggle.com/ronitf/heart-disease-uci>
 
+    * Blue book for bulldozers: <https://www.kaggle.com/c/bluebook-for-bulldozers>
+
   * Recommendation System:
 
     * Create an Artificial Sommelier: <https://www.kaggle.com/zynicide/wine-reviews>
