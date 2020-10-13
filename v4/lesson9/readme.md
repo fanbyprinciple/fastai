@@ -32,6 +32,9 @@
 
 ![decision](./img/decision_tree.png)
 
+Removing redunadant features in Random forest
+![feature_importance](./img/feature_importance.png)
+
 ## further research
 
 1. Try building a decision tree classifier form scratch
