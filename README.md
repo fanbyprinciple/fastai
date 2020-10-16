@@ -2,6 +2,8 @@
 
 my fast.ai v3 and v4 repo :smile_cat:
 
+fastai makes me happy
+
 Note: The video lectures given in youtube and the site are very different. The best place is the site as the latest books are present.
 
 for v4 I will follow www.github.com/fastai/fastbook.
