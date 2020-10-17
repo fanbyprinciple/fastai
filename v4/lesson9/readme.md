@@ -10,7 +10,9 @@
 
 1. TabularPandas for missing data and strings and TabularProc - categorify and fillmising
 
-1. How to create a validation set form dataframe
+1. How to create a validation set form dataframe through a condition
+
+1. Lots of trips and tricks regarding tabular data
 
 ## about the problem
 
@@ -34,6 +36,13 @@
 
 Removing redundant features in Random forest
 ![feature_importance](./img/feature_importance.png)
+
+Partial features
+![partial_features](./img/partial_features.png)
+
+Waterfall model
+![waterfall_model](./img/waterfall.png)
+
 
 ## further research
 
