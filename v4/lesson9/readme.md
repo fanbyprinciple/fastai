@@ -51,8 +51,12 @@ Partial features
 Waterfall model
 ![waterfall_model](./img/waterfall.png)
 
-neural net accuract
+neural net accuracy
 ![nn](./img/nn_accuracy.png)
+
+
+working on my tabular data
+![tabular](./img/adult_census.png)
 
 ## questionaire
 
