@@ -44,9 +44,10 @@ tokenisation
 
 Numericalisations - making list of unique words -vocab and convert each word to index to look up in vocab
 
-![tokensiation](./img/tokenisation_initial.png)
+![tokenisation](./img/tokenisation_initial.png)
 
 Language model data loader creation -  LMDDataLoader class for seperating the last token as label
 
 Language model creation - creating a model that handles the input list that are arbitaryily small or big.
 
+![preprocessing](./img/preprocessing.png)
