@@ -51,3 +51,117 @@ Language model data loader creation -  LMDDataLoader class for seperating the la
 Language model creation - creating a model that handles the input list that are arbitaryily small or big.
 
 ![preprocessing](./img/preprocessing.png)
+
+
+Creating a language model result:
+![language_result](./img/language_result.png)
+
+creating a classifier model result:
+![classifier_result](classifier_result.png)
+
+
+## Questions
+
+1. What is "self-supervised learning"?
+
+when there are no labels and th emodel itself tries to create a model
+
+1. What is a "language model"?
+
+A model that is supposed model the language and hence create language
+
+1. Why is a language model considered self-supervised?
+
+because the labels are genererated on the basis of input provided and are not given explicitly to the model
+
+1. What are self-supervised models usually used for?
+
+These models are used for tasks that have no label
+
+1. Why do we fine-tune language models?
+
+fine tuning is necessary because we need to unravel the layer a few layers at a time
+
+1. What are the three steps to create a state-of-the-art text classifier?
+
+getting a pretrained model
+numericalisation
+padding
+finetuning
+
+1. How do the 50,000 unlabeled movie reviews help us create a better text classifier for the IMDb dataset?
+
+the help us to give a better language model
+
+1. What are the three steps to prepare your data for a language model?
+tokenisation
+numericalisation
+language model creation
+
+1. What is "tokenization"? Why do we need it?
+
+convert words to distinct semantic chunks
+
+1. Name three different approaches to tokenization.
+
+word based
+subwordbased
+character based
+
+1. What is `xxbos`?
+
+beginning of stream
+
+1. List four rules that fastai applies to text during tokenization.
+
+it saves the tokenised document in a temporary folder so that it doesn't need to tokenise more than once
+
+it runs multiple tokenisation processes in parallel to take advantage of computer cpu
+
+initial preprocessomg
+
+padding
+
+Actual answer:
+repeated tokens, specialtokens, capitalisation token, embedding matrix only take the lower case
+
+
+1. Why are repeated characters replaced with a token showing the number of repetitions and the character that's repeated?
+
+or instance, the rules will replace a sequence of four exclamation points with a single exclamation point, followed by a special repeated character token, and then the number four. In this way, the model's embedding matrix can encode information about general concepts such as repeated punctuation rather than requiring a separate token for every number of repetitions of every punctuation mark.
+
+
+1. What is "numericalization"?
+
+converting the tokens to a number in a dictionary , and accessing it thorugh a number
+
+1. Why might there be words that are replaced with the "unknown word" token?
+
+xxunk
+
+1. With a batch size of 64, the first row of the tensor representing the first batch contains the first 64 tokens for the dataset. What does the second row of that tensor contain? What does the first row of the second batch contain? (Careful—students often get this one wrong! Be sure to check your answer on the book's website.)
+
+don't know
+
+1. Why do we need padding for text classification? Why don't we need it for language modeling?
+
+so that size is same
+
+1. What does an embedding matrix for NLP contain? What is its shape?
+
+no idea
+
+1. What is "perplexity"?
+
+dont wanna know
+
+1. Why do we have to pass the vocabulary of the language model to the classifier data block?
+
+you have decided it. so that comupted indexes dont change
+1. What is "gradual unfreezing"?
+
+unravelling 2 layers at a time
+
+1. Why is text generation always likely to be ahead of automatic identification of machine-generated texts?
+
+better classification will always lead to better generation algorithm
