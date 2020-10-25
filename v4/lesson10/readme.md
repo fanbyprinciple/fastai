@@ -2,6 +2,11 @@
 
 Uses pretrained WIkitext model and then IMDb to fine tune the model
 
+It teaches two things :
+	1. creating a dataloader for language model : this will generate the next word
+	2. creating a dataloader for classifier : this is an external label like sentiment
+
+
 ## NLP introduction
 
 nlp is about guessing the next word. for that the model needs to create its own labels. It uses self supervised learning.
