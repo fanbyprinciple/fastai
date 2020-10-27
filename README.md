@@ -50,6 +50,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
 
     * Toxic classification: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data>
 
+    * Trump rallies: <https://www.kaggle.com/christianlillelund/donald-trumps-rallies/notebooks>
+
     * Sarcasm detection: <https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection>
 
     * Open analysis: Predict startup success by media mentions & comments - <https://www.kaggle.com/hacker-news/hacker-news>
