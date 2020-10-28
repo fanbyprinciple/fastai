@@ -53,7 +53,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
     * Trump rallies: <https://www.kaggle.com/christianlillelund/donald-trumps-rallies/notebooks>
 
     * Sarcasm detection: <https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection>
-
+    
+    * Movie reviews: <https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews>
     * Open analysis: Predict startup success by media mentions & comments - <https://www.kaggle.com/hacker-news/hacker-news>
 
   * GAN:
