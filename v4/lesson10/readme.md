@@ -75,6 +75,10 @@ make changes above.
 input error:
 ![](./img/trump_error.png)
 
+9. Trying on movies dataset :
+![train_head](train_head_movie.png)
+problem with the dataloaders
+
 ## Questions
 
 1. What is "self-supervised learning"?
