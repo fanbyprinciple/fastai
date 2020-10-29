@@ -70,14 +70,16 @@ for building embedding matrix: for words in vocabualary of pre trained modelwe w
 8. Trying on trump dataset :
 https://www.kaggle.com/fanbyprinciple/language-modelling-using-fastaiv2/edit
 
-make changes above.
-
 input error:
 ![](./img/trump_error.png)
 
+Moved entire directory from input to output to get:
+![](./img/trump_success.png)
+
 9. Trying on movies dataset :
 ![train_head](train_head_movie.png)
-problem with the dataloaders
+
+problem with the dataloaders.
 
 ## Questions
 
