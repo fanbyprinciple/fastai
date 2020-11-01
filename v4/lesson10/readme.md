@@ -1,5 +1,7 @@
 # Natural Language Processing
 
+Good article on nlp: https://medium.com/datadriveninvestor/deep-learning-with-python-and-fast-ai-part-2-nlp-classification-with-transfer-learning-e7aaf7514e04
+
 Uses pretrained WIkitext model and then IMDb to fine tune the model
 
 It teaches two things :
