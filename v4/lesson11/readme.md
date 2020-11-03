@@ -26,7 +26,8 @@ It tells us about customizing the api:
 1. Why do we say that fastai has a "layered" API? What does it mean?
 1. Why does a `Transform` have a `decode` method? What does it do?
 1. Why does a `Transform` have a `setup` method? What does it do?
-1. How does a `Transform` work when called on a tuple?
+1. How does a `Transfo
+rm` work when called on a tuple?
 1. Which methods do you need to implement when writing your own `Transform`?
 1. Write a `Normalize` transform that fully normalizes items (subtract the mean and divide by the standard deviation of the dataset), and that can decode that behavior. Try not to peek!
 1. Write a `Transform` that does the numericalization of tokenized texts (it should set its vocab automatically from the dataset seen and have a `decode` method). Look at the source code of fastai if you need help.
