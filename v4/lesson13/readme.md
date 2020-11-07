@@ -35,7 +35,12 @@ By training with higher learning rates, we overfit less because we skip over the
 After normalizing the activations to get some new activation vector y, a batchnorm layer returns gamma*y + beta.
 
 The final result:
-![baseline](baseline_results.png)
+![baseline](./img/baseline_results.png)
+
+But i cant figure out how to make predictions based on the image:
+
+![four](./img/four.png)
+
 
 ## Summary
 
