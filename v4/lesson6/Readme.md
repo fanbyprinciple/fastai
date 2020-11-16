@@ -1,5 +1,7 @@
 # Multi label classification
 
+> [NEEDS REVISITING]:neckbeard:
+
 ## implementation standpoint
 
 1. Uses pascal dataset
