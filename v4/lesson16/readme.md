@@ -1,5 +1,7 @@
 # Accel SGD
 
+> [NEEDS REVISITING]:neckbeard:
+
 Deep dive into training of neural network and different SGD Architecture used
 
 plus knowledge of callbacks.
