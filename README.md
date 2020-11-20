@@ -48,6 +48,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
 
     * Detect the artist, based on the image: <https://www.kaggle.com/ikarus777/best-artworks-of-all-time>
 
+    * Cassava plant dataset - <https://www.kaggle.com/c/cassava-leaf-disease-classification/data>
+
   * NLP:
 
     * Toxic classification: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data>

@@ -1,7 +1,7 @@
 # learner from scratch
 
-Here we woek on everything from scratch very instructive
+Here we work on everything from scratch. very instructive.
 
-we work no Imagenette
+we work no Imagenette.
 
 ![imagenette](imagenette.png)
