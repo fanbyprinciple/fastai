@@ -58,6 +58,9 @@ neural net accuracy
 working on my tabular data
 ![tabular](./img/adult_census.png)
 
+Working on kaggle titanic data
+![titanic](./img/titanic_data.png)
+
 ## questionaire
 
 1. What is a continuous variable?
