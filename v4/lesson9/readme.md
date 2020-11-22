@@ -61,6 +61,13 @@ working on my tabular data
 Working on kaggle titanic data
 ![titanic](./img/titanic_data.png)
 
+Titanic learner
+![titanic_learner](./img/titanic_learner.png)
+
+Still don't know how to predict on the data.
+issue:
+<https://forums.fast.ai/t/single-prediction-on-new-data-from-tabular-data-learner/28792>
+
 ## questionaire
 
 1. What is a continuous variable?
