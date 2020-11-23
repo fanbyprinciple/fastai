@@ -50,6 +50,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
 
     * Cassava plant dataset - <https://www.kaggle.com/c/cassava-leaf-disease-classification/data>
 
+    * With or without mask - <https://www.kaggle.com/omkargurav/face-mask-dataset>
+
   * NLP:
 
     * Toxic classification: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data>
