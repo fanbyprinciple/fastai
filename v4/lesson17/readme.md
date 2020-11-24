@@ -20,6 +20,12 @@ A simple model:
 
 ![simple_model](simple_model.png)
 
+using tiff images to train ones own neural network i pytorchs
+![input](hubmaninput.png)
+
+This is what a full featured pytorch model looks like
+![transform](hubman2transform.png)
+
 ## Summary
 
 In this chapter we explored the foundations of deep learning, beginning with matrix multiplication and moving on to implementing the forward and backward passes of a neural net from scratch. We then refactored our code to show how PyTorch works beneath the hood.

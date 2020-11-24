@@ -10,6 +10,9 @@ for v4 I will follow www.github.com/fastai/fastbook.
 
 check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vienna/blob/master/README.md>
 
+working with test data
+<https://www.kaggle.com/krishnakalyan3/cassava-leaf-disease-classification-fastai-2-0>
+
 * Datasets ideas:
 
   * Tabular data:
@@ -51,6 +54,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
     * Cassava plant dataset - <https://www.kaggle.com/c/cassava-leaf-disease-classification/data>
 
     * With or without mask - <https://www.kaggle.com/omkargurav/face-mask-dataset>
+
+    * Aerial cactus - <https://www.kaggle.com/c/aerial-cactus-identification>
 
   * NLP:
 
