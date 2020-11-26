@@ -10,6 +10,7 @@ https://colab.research.google.com/drive/1MybjxDCbLLJCVQR5Ahu552VqDRJosHFG#scroll
 https://colab.research.google.com/github/fastai/fastbook/blob/master/04_mnist_basics.ipynb#scrollTo=Y3vljyfChrB_
 
 ### Aim of the chapter
+
 1. to understand the roles of array and tensors in broadcasting and using them expressively
 
 2. We will learn stohastic gradient descent by updating the weights automatically

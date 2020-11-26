@@ -2,11 +2,25 @@
 
 my fast.ai v3 and v4 repo :smile_cat:
 
-fastai makes me happy
+fastai makes me happy, to be able to finally put ml into practice !
 
-Note: The video lectures given in youtube and the site are very different. The best place is the site as the latest books are present.
+Note: The video lectures given in youtube and the site are very different. The best place is the site, I expect it to be updated with latest stuff.
 
-for v4 I will follow www.github.com/fastai/fastbook.
+for v4 I will follow,
+FASTBOOK -  <www.github.com/fastai/fastbook.>
+
+## Important things discussed in chapters:
+
+### Chapter 4
+
+1. arrays and tensors
+1. broadcasting
+1. SGD
+1. Choice of a loss function
+1. role of mini batches
+1. Math of basic neural network
+
+## Putting what you learnt in practice
 
 check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vienna/blob/master/README.md>
 
@@ -56,6 +70,8 @@ working with test data
     * With or without mask - <https://www.kaggle.com/omkargurav/face-mask-dataset>
 
     * Aerial cactus - <https://www.kaggle.com/c/aerial-cactus-identification>
+
+    * TiFF kidney images - <https://www.kaggle.com/c/hubmap-kidney-segmentation/notebooks?competitionId=22990&sortBy=dateRun&tab=profile>
 
   * NLP:
 
