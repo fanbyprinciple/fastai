@@ -16,7 +16,7 @@ FASTBOOK -  <www.github.com/fastai/fastbook.>
 1. arrays and tensors
 1. broadcasting
 1. SGD
-1. Choice of a loss function
+1. Choice of a loss function - L1 ( absolute difference) and L2 (square of difference) norm
 1. role of mini batches
 1. Math of basic neural network
 
