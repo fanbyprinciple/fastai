@@ -24,6 +24,9 @@ FASTBOOK -  <www.github.com/fastai/fastbook.>
 
 check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vienna/blob/master/README.md>
 
+Competitions available through kaggle api:
+![kaggle_competition_list](kaggle_competitions_list.png)
+
 working with test data
 <https://www.kaggle.com/krishnakalyan3/cassava-leaf-disease-classification-fastai-2-0>
 
@@ -72,6 +75,8 @@ working with test data
     * Aerial cactus - <https://www.kaggle.com/c/aerial-cactus-identification>
 
     * TiFF kidney images - <https://www.kaggle.com/c/hubmap-kidney-segmentation/notebooks?competitionId=22990&sortBy=dateRun&tab=profile>
+
+    * Amazon from space - <https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/notebooks?competitionId=6322&searchQuery=fast> - given in fastai tutorial but not available.
 
   * NLP:
 

@@ -29,6 +29,9 @@ Trying multilabel tricsk on a kaggle histopathologic cancer dataset
 kaggle score:
 ![hcd_kaggle](hcd_kaggle.png)
 
+Trying on amzon space dataset but failed:
+![torrent_failed](torrent.png)
+
 
 ## Questions
 
