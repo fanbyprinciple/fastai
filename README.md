@@ -32,6 +32,10 @@ working with test data
 
 * Datasets ideas:
 
+  * Audio data:
+
+    * Rainforest species audio: <https://www.kaggle.com/c/rfcx-species-audio-detection>
+
   * Tabular data:
 
     * Heart disease classification: <https://www.kaggle.com/ronitf/heart-disease-uci>
