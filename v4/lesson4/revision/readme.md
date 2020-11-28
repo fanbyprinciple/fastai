@@ -21,3 +21,6 @@ wrong classification by mean model:
 
 Illustrative function to use SGD
 ![](rillus.png)
+
+gradient desent after 10020 steps
+![](rsgd.png)
