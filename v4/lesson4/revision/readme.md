@@ -24,3 +24,11 @@ Illustrative function to use SGD
 
 gradient desent after 10020 steps
 ![](rsgd.png)
+
+The key difference is that the metric is to drive human understanding and the loss is to drive automated learning. To drive automated learning, the loss must be a function that has a meaningful derivative. 
+
+since we can;t apply the loss calculation and update on a single set nor on a big dataset, we take mini batches.
+
+The validation accuracy drop then increases sure is a mystery.
+![rmystery](rmystery.png)
+
