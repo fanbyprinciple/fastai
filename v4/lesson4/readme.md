@@ -211,3 +211,133 @@ All mnist finally able to run learner
 
 5. Complete all the steps in this chapter using the full MNIST datasets (that is, for all digits, not just 3s and 7s). This is a significant project and will take you quite a bit of time to complete! You'll need to do some of your own research to figure out how to overcome some obstacles you'll meet on the way.
 
+## questionaire
+
+1. How is a grayscale image represented on a computer? How about a color image?
+
+by rows and columsn indicating the range of values from 0 to 255. color image through a tuple.
+
+1. How are the files and folders in the `MNIST_SAMPLE` dataset structured? Why?
+
+& and 3 are given in respective folde rso that it is easy to work with them.
+
+1. Explain how the "pixel similarity" approach to classifying digits works.
+
+we merge all the tensors together and find the mean of all values at each location, then we find to distance of new image from the prediction to find the value
+
+1. What is a list comprehension? Create one now that selects odd numbers from a list and doubles them.
+
+[2*x if x%2!=0 else x for x in num]
+
+1. What is a "rank-3 tensor"?
+
+it means it has 3 dimensions, for examplea n array of 2d images
+
+1. What is the difference between tensor rank and shape? How do you get the rank from the shape?
+
+shape gives you dimension while rank gives you size of shape
+
+1. What are RMSE and L1 norm?
+
+Root mean square is l2 norm where we square the loss and then squareroot.
+
+L1 is simple minus of the loss.
+
+1. How can you apply a calculation on thousands of numbers at once, many thousands of times faster than a Python loop?
+
+Use tensors and use broadcasting
+
+1. Create a 3×3 tensor or array containing the numbers from 1 to 9. Double it. Select the bottom-right four numbers.
+
+new_array = tensor((torch.randn(1,1,9)*10))
+(new_array*2)[0][0][-4:]
+
+1. What is broadcasting?
+
+using same operator on enitre array
+
+1. Are metrics generally calculated using the training set, or the validation set? Why?
+
+validation set as metrics are values that matter to us human beings while training requires loss function
+
+1. What is SGD?
+
+Stochastic gradient descent
+
+1. Why does SGD use mini-batches?
+
+because using it on entire dataset would take up lot of memory and one one by one it would be too slow.
+
+1. What are the seven steps in SGD for machine learning?
+    > get the data
+    > define your loss, optimisation and metrics,
+    > train
+    > validate
+    > make changes
+    > retrain
+    > go back to validate
+
+    (these aren'tthe seven steps but I like them)
+
+1. How do we initialize the weights in a model?
+
+by using tensor(torch.randn(size,1)*std)
+
+1. What is "loss"?
+
+it the differnce between prediciton and targets.
+
+1. Why can't we always use a high learning rate?
+
+because it may take big leaps and miss minima altogether.
+
+1. What is a "gradient"?
+
+slope of function d/dx which tells us which step to follow to reach downhill.
+
+1. Do you need to know how to calculate gradients yourself?
+
+no we have require_grads() from pytorch, though it would be nice to know. but I always was bad at maths.
+
+1. Why can't we use accuracy as a loss function?
+
+because it is difficult to use in case when there is onnly small changes in pixel
+
+1. Draw the sigmoid function. What is special about its shape?
+
+it givesa smooth `S` between 0 and 1
+
+1. What is the difference between a loss function and a metric?
+
+metric is for humans, loss for the machines.
+
+1. What is the function to calculate new weights using a learning rate?
+
+loss.backward()
+
+1. What does the `DataLoader` class do?
+
+its a way for us to get mini batches
+
+1. Write pseudocode showing the basic steps taken in each epoch for SGD.
+
+make prediction using linear1 or any function
+find the loss of the function
+make sure loss uses requires_grad_ parameters
+then use loss.backward
+update weights.data by multiplying it with weights.grad * learning rate
+put the weights.grad to zero
+this completes one epoch on batch
+
+1. Create a function that, if passed two arguments `[1,2,3,4]` and `'abcd'`, returns `[(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd')]`. What is special about that output data structure?
+1. What does `view` do in PyTorch?
+1. What are the "bias" parameters in a neural network? Why do we need them?
+1. What does the `@` operator do in Python?
+1. What does the `backward` method do?
+1. Why do we have to zero the gradients?
+1. What information do we have to pass to `Learner`?
+1. Show Python or pseudocode for the basic steps of a training loop.
+1. What is "ReLU"? Draw a plot of it for values from `-2` to `+2`.
+1. What is an "activation function"?
+1. What's the difference between `F.relu` and `nn.ReLU`?
+1. The universal approximation theorem shows that any function can be approximated as closely as needed using just one nonlinearity. So why do we normally use more?

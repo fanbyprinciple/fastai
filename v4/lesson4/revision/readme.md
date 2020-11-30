@@ -32,3 +32,16 @@ since we can;t apply the loss calculation and update on a single set nor on a bi
 The validation accuracy drop then increases sure is a mystery.
 ![rmystery](rmystery.png)
 
+There was no mystery I was just using previously trained weight values, then wehn I trained it again the weight value changed.
+
+![](rresult.png)
+
+RELU:
+
+That little function res.max(tensor(0.0)) is called a rectified linear unit, also known as ReLU. We think we can all agree that rectified linear unit sounds pretty fancy and complicated... But actually, there's nothing more to it than res.max(tensor(0.0))—in other words, replace every negative number with a zero.
+![](rrevision.png)
+
+By "virtue" of universal approximation theram neural net acn predict anything
+
+![](rweird.png)
+
