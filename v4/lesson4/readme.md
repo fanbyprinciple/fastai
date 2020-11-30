@@ -328,16 +328,71 @@ then use loss.backward
 update weights.data by multiplying it with weights.grad * learning rate
 put the weights.grad to zero
 this completes one epoch on batch
-
+ 
 1. Create a function that, if passed two arguments `[1,2,3,4]` and `'abcd'`, returns `[(1, 'a'), (2, 'b'), (3, 'c'), (4, 'd')]`. What is special about that output data structure?
+
+def a(arg1, arg2):
+  return list(zip(arg1,arg2))
+
+a([1,2,3,4],['a','b','c','d'])
+
+its is a tuple.
+
 1. What does `view` do in PyTorch?
+
+torch.view(a,b,c) means if a[i] then b[i] else c[i] for len(a)
+
 1. What are the "bias" parameters in a neural network? Why do we need them?
+
+we need it because then we don't really want to pass the zeros to the neural network
+
 1. What does the `@` operator do in Python?
+
+for matrix multiplication
+
 1. What does the `backward` method do?
+
+recursively calcultes the gradients for leaf dependecy items
+
 1. Why do we have to zero the gradients?
+
+because otherwise the new gradients add to old gradients
+
 1. What information do we have to pass to `Learner`?
+
+about the dls, model, optimiser, loss, metrics
+
 1. Show Python or pseudocode for the basic steps of a training loop.
+
+def train_model_1(n, xb, yb, model, weight):
+  for i in range(n):
+    pred = model(xb)
+    pred = pred.sigmoid()
+    loss = (pred - yb).mean()
+    loss.backward()
+    lr = 0.1
+    weight.data -= weight.grad * lr
+    weight.data.zero_()
+
+train_model_1(4, train_x, train_y, linear1, weight)
+
 1. What is "ReLU"? Draw a plot of it for values from `-2` to `+2`.
+
+![](rrelu_mine.png)
+
 1. What is an "activation function"?
+
+Activation functions are functions that give you a number in between neral network like relu.
+
 1. What's the difference between `F.relu` and `nn.ReLU`?
+
+nn is a pytorch implementation of ReLU
+while F.relu is the fast ai implementation of the relu function
+
+one works in fastai while the other doesn't
+
+![](rtworelus.png)
+
 1. The universal approximation theorem shows that any function can be approximated as closely as needed using just one nonlinearity. So why do we normally use more?
+
+because many weights would be required if we use just one layer, for a close approximation.
