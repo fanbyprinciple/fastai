@@ -30,6 +30,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
 
   * Computer Vision:
 
+    * Sign language : <https://www.kaggle.com/datamunge/sign-language-mnist> not done!
+
     * Histopathologic cancer : <https://www.kaggle.com/mentalwanderer/image-classification-workflow-with-fast-ai>
 
     * Chest X-tay Images : <https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia>
@@ -49,6 +51,8 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
   * NLP:
 
     * Sarcasm detection: <https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection>
+
+    * Toxic comment classification challenge: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge>
 
     * Open analysis: Predict startup success by media mentions & comments - <https://www.kaggle.com/hacker-news/hacker-news>
 
