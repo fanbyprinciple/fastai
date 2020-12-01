@@ -2,21 +2,47 @@
 
 my fast.ai v3 and v4 repo :smile_cat:
 
-fastai makes me happy
+fastai makes me happy, to be able to finally put ml into practice !
 
-Note: The video lectures given in youtube and the site are very different. The best place is the site as the latest books are present.
+Note: The video lectures given in youtube and the site are very different. The best place is the site, I expect it to be updated with latest stuff.
 
-for v4 I will follow www.github.com/fastai/fastbook.
+for v4 I will follow,
+FASTBOOK -  <www.github.com/fastai/fastbook.>
+
+## Important things discussed in chapters:
+
+### Chapter 4
+
+1. arrays and tensors
+1. broadcasting
+1. SGD
+1. Choice of a loss function - L1 ( absolute difference) and L2 (square of difference) norm
+1. role of mini batches
+1. Math of basic neural network
+
+## Putting what you learnt in practice
 
 check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vienna/blob/master/README.md>
 
+Competitions available through kaggle api:
+![kaggle_competition_list](kaggle_competitions_list.png)
+
+working with test data
+<https://www.kaggle.com/krishnakalyan3/cassava-leaf-disease-classification-fastai-2-0>
+
 * Datasets ideas:
+
+  * Audio data:
+
+    * Rainforest species audio: <https://www.kaggle.com/c/rfcx-species-audio-detection>
 
   * Tabular data:
 
     * Heart disease classification: <https://www.kaggle.com/ronitf/heart-disease-uci>
 
     * Blue book for bulldozers: <https://www.kaggle.com/c/bluebook-for-bulldozers>
+
+    * IEEE fraud detection :<https://www.kaggle.com/c/ieee-fraud-detection/overview>
 
   * Recommendation System:
 
@@ -48,12 +74,28 @@ check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vien
 
     * Detect the artist, based on the image: <https://www.kaggle.com/ikarus777/best-artworks-of-all-time>
 
+    * Cassava plant dataset - <https://www.kaggle.com/c/cassava-leaf-disease-classification/data>
+
+    * With or without mask - <https://www.kaggle.com/omkargurav/face-mask-dataset>
+
+    * Aerial cactus - <https://www.kaggle.com/c/aerial-cactus-identification>
+
+    * TiFF kidney images - <https://www.kaggle.com/c/hubmap-kidney-segmentation/notebooks?competitionId=22990&sortBy=dateRun&tab=profile>
+
+    * Amazon from space - <https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/notebooks?competitionId=6322&searchQuery=fast> - given in fastai tutorial but not available.
+
   * NLP:
+
+    * Toxic classification: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data>
+
+    * Trump rallies: <https://www.kaggle.com/christianlillelund/donald-trumps-rallies/notebooks>
 
     * Sarcasm detection: <https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection>
 
     * Toxic comment classification challenge: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge>
 
+    * Movie reviews: <https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews>
+    
     * Open analysis: Predict startup success by media mentions & comments - <https://www.kaggle.com/hacker-news/hacker-news>
 
   * GAN:

@@ -1,5 +1,7 @@
 # Multi label classification
 
+> [NEEDS REVISITING]:neckbeard:
+
 ## implementation standpoint
 
 1. Uses pascal dataset
@@ -70,3 +72,7 @@ Multi label ?
 
 Pneumonia dataset
 ![pnuemonia]([pneumonia.png])
+
+Cassava dataset
+<https://www.kaggle.com/fanbyprinciple/fastai-v2-quick-pipeline/edit>
+![cassava](cassava.png)

@@ -56,3 +56,6 @@ _
 
 Artistic confusion matrix
 ![](fruits2.png)
+
+With and without mask dataset"
+![](with_mask.png)

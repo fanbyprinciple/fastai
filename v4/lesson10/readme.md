@@ -1,5 +1,7 @@
 # Natural Language Processing
 
+Good article on nlp: https://medium.com/datadriveninvestor/deep-learning-with-python-and-fast-ai-part-2-nlp-classification-with-transfer-learning-e7aaf7514e04
+
 Uses pretrained WIkitext model and then IMDb to fine tune the model
 
 It teaches two things :
@@ -45,25 +47,41 @@ for building embedding matrix: for words in vocabualary of pre trained modelwe w
 
 ## jargon
 
-tokenisation
+1. tokenisation
 
-Numericalisations - making list of unique words -vocab and convert each word to index to look up in vocab
+2. Numericalisations - making list of unique words -vocab and convert each word to index to look up in vocab
 
 ![tokenisation](./img/tokenisation_initial.png)
 
-Language model data loader creation -  LMDDataLoader class for seperating the last token as label
+3. Language model data loader creation -  LMDDataLoader class for seperating the last token as label
 
-Language model creation - creating a model that handles the input list that are arbitaryily small or big.
+4. Language model creation - creating a model that handles the input list that are arbitaryily small or big.
 
 ![preprocessing](./img/preprocessing.png)
 
+5. Language model labelling, happens if `is_lm=True`
+![language_model_labels](./img/language_model_labels.png)
 
-Creating a language model result:
+6. Creating a language model result:
 ![language_result](./img/language_result.png)
 
-creating a classifier model result:
+7. creating a classifier model result:
 ![classifier_result](classifier_result.png)
 
+
+8. Trying on trump dataset :
+https://www.kaggle.com/fanbyprinciple/language-modelling-using-fastaiv2/edit
+
+input error:
+![](./img/trump_error.png)
+
+Moved entire directory from input to output to get:
+![](./img/trump_success.png)
+
+9. Trying on movies dataset :
+![train_head](train_head_movie.png)
+
+problem with the dataloaders.
 
 ## Questions
 
