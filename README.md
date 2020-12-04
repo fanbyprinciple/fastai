@@ -56,8 +56,6 @@ working with test data
 
   * Computer Vision:
 
-    * Sign language : <https://www.kaggle.com/datamunge/sign-language-mnist> not done!
-
     * Histopathologic cancer : <https://www.kaggle.com/mentalwanderer/image-classification-workflow-with-fast-ai>
 
     * Chest X-tay Images : <https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia>
@@ -78,7 +76,7 @@ working with test data
 
     * With or without mask - <https://www.kaggle.com/omkargurav/face-mask-dataset>
 
-    * Aerial cactus - <https://www.kaggle.com/c/aerial-cactus-identification>
+    * Aerial cactus - <https://www.kaggle.com/c/aerial-cactus-identification>c
 
     * TiFF kidney images - <https://www.kaggle.com/c/hubmap-kidney-segmentation/notebooks?competitionId=22990&sortBy=dateRun&tab=profile>
 
@@ -91,8 +89,6 @@ working with test data
     * Trump rallies: <https://www.kaggle.com/christianlillelund/donald-trumps-rallies/notebooks>
 
     * Sarcasm detection: <https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection>
-
-    * Toxic comment classification challenge: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge>
 
     * Movie reviews: <https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews>
     
