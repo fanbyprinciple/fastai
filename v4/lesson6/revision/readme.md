@@ -18,3 +18,16 @@ nll_loss returns the value of only one activation, single activation correspondi
 
 binary_cross_entropy is mnist_loss with log
 
+
+for one hot encoded tareds we use F.binary_cross_entropy, (BCEWithLogitsLoss),
+
+for mnist F.null_loss (nn.NLLLoss),
+
+ F.cross_entropy (n.CrossEntropyLoss) for version without inital softmax
+
+ F.cross_entropy or nn.CrossEntropyLoss for version with initial softmax 
+Maybe the model is not working that well
+
+![](model_result.png)
+
+Need to do regression revision.
