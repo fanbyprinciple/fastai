@@ -31,3 +31,5 @@ Maybe the model is not working that well
 ![](model_result.png)
 
 Need to do regression revision.
+
+![](reg_result.png)
