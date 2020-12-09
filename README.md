@@ -20,6 +20,13 @@ FASTBOOK -  <www.github.com/fastai/fastbook.>
 1. role of mini batches
 1. Math of basic neural network
 
+### chapter 6
+
+1. Multilabel classification
+1. using one hot ending and multicategoryblock
+1. getting data from image folders
+1. usingregression block
+
 ## Putting what you learnt in practice
 
 check out MicPie's guide : <https://github.com/MicPie/fastai-pytorch-course-vienna/blob/master/README.md>
