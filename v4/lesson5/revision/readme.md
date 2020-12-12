@@ -36,3 +36,14 @@ Explanation for learning rate
     to find the lr:
 
     ![](lr_finder.png)
+
+When we call the fine_tune method fastai does two things:
+
+Trains the randomly added layers for one epoch, with all other layers frozen
+Unfreezes all of the layers, and trains them all for the number of epochs requested
+
+discriminative learning rates
+
+ The first layer learns very simple foundations, like edge and gradient detectors; these are likely to be just as useful for nearly any task. The later layers learn much more complex concepts, like "eye" and "sunset," which might not be useful in your task at all (maybe you're classifying car models, for instance). So it makes sense to let the later layers fine-tune more quickly than earlier layers.
+
+ ![](train_loss.png)

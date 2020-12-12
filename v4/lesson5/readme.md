@@ -37,12 +37,25 @@ Trying on amzon space dataset but failed:
 
 1. Why do we first resize to a large size on the CPU, and then to a smaller size on the GPU?
 
-
+This is called presizing. Data augmentation is applied to images in gpu, to minimisse data destruction that can happen due to this the augmentation is done on arger size then RandomResizeCrop is used.
 
 1. If you are not familiar with regular expressions, find a regular expression tutorial, and some problem sets, and complete them. Have a look on the book's website for suggestions.
+
+https://www.youtube.com/watch?v=7DG3kCDx53c
+
 1. What are the two ways in which data is most commonly provided, for most deep learning datasets?
+
+Individualfiles representing iems of data, such as textor images
+available in csvformat.
+
 1. Look up the documentation for `L` and try using a few of the new methods is that it adds.
+
+https://fastcore.fast.ai/foundation#L
+
 1. Look up the documentation for the Python `pathlib` module and try using a few methods of the `Path` class.
+
+https://docs.python.org/3/library/pathlib.html
+
 1. Give two examples of ways that image transformations can degrade the quality of the data.
 1. What method does fastai provide to view the data in a `DataLoaders`?
 1. What method does fastai provide to help you debug a `DataBlock`?
