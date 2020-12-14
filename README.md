@@ -1,6 +1,6 @@
 # fastai
 
-my fast.ai v3 and v4 repo :smile_cat:
+my fast.ai fastbook and v4 repo :smile_cat:
 
 fastai makes me happy, to be able to finally put ml into practice !
 
