@@ -89,6 +89,8 @@ working with test data
 
     * Amazon from space - <https://www.kaggle.com/c/planet-understanding-the-amazon-from-space/notebooks?competitionId=6322&searchQuery=fast> - given in fastai tutorial but not available.
 
+    * Ranczr chest - https://www.kaggle.com/c/ranzcr-clip-catheter-line-classification
+
   * NLP:
 
     * Toxic classification: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data>
@@ -131,11 +133,7 @@ bookmarked links:
 4. colab hints
 <https://medium.com/@robertbracco1/configuring-google-colab-like-a-pro-d61c253f7573>
 
-``` python
-    %%javascript
-    function ClickConnect(){
-    console.log("Working");
-    document.querySelector("colab-toolbar-button#connect").click()
+``` pythonhttps://www.kaggle.com/c/ranzcr-clip-catheter-line-classification
     }setInterval(ClickConnect,60000)
 
     This needs to be added before a training loop
@@ -245,10 +243,7 @@ from : <https://raw.githubusercontent.com/MicPie/fastai-pytorch-course-vienna/ma
 * [Pytorch torch.einsum](https://rockt.github.io/2018/04/30/einsum) (= the best way to get familiar with matrix calculus and einsum)
 * [PyTorch under the hood](https://speakerdeck.com/perone/pytorch-under-the-hood)
 * [Advanced PyTorch concepts with code](https://github.com/graykode/projects)
-
-## Deep Learning
-
-* [The deep learning book (Ian Goodfellow and Yoshua Bengio and Aaron Courville)](https://www.deeplearningbook.org)
+https://www.kaggle.com/c/ranzcr-clip-catheter-line-classificationook (Ian Goodfellow and Yoshua Bengio and Aaron Courville)](https://www.deeplearningbook.org)
 * [Neural Networks and Deep Learning (Michael Nielson)](http://neuralnetworksanddeeplearning.com)
 * [ML yearning (Andrew Ng)](https://www.mlyearning.org) (About how to structure Machine Learning projects.)
 * CS 230 Deep Learning Cheatsheets:
