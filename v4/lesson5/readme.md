@@ -66,15 +66,41 @@ https://docs.python.org/3/library/pathlib.html
 
 1. Give two examples of ways that image transformations can degrade the quality of the data.
 
-    1. it can crop badly
+    1. it can crop badly 
+    1. it can create spurious empty zones
+
+There fore its better to presize to a larger dimenison first and then the common augmentations operation can be fit onto a GPU
 
 1. What method does fastai provide to view the data in a `DataLoaders`?
+
+`dls.show_batch()`
+
 1. What method does fastai provide to help you debug a `DataBlock`?
+
+`datablock.summary()` function
+
 1. Should you hold off on training a model until you have thoroughly cleaned your data?
+
+Yes is my answer.
+
 1. What are the two pieces that are combined into cross-entropy loss in PyTorch?
+
+Two things are softmax followed by log liklihood. 
+
 1. What are the two properties of activations that softmax ensures? Why is this important?
+
+Softmax ensures that the activations add upto one.
+
+softmax is smooth and symmetric,
+It ensure sthat all our numbers are positive and dividing by the sum ensures that we will have a bunch of numbers that add upto 1.
+
 1. When might you want your activations to not have these two properties?
+
+It is good during training but not during inference, as you want your model to not be confident about the wrong label
+
 1. Calculate the `exp` and `softmax` columns of <<bear_softmax>> yourself (i.e., in a spreadsheet, with a calculator, or in a notebook).
+
+
 1. Why can't we use `torch.where` to create a loss function for datasets where our label can have more than two categories?
 1. What is the value of log(-2)? Why?
 1. What are two good rules of thumb for picking a learning rate from the learning rate finder?
