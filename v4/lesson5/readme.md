@@ -100,19 +100,57 @@ It is good during training but not during inference, as you want your model to n
 
 1. Calculate the `exp` and `softmax` columns of <<bear_softmax>> yourself (i.e., in a spreadsheet, with a calculator, or in a notebook).
 
+![](excel.png)
+
 
 1. Why can't we use `torch.where` to create a loss function for datasets where our label can have more than two categories?
+
+because `-sm_acts[idx, targ]` acts like the `torch.where` equivalent.
+
 1. What is the value of log(-2)? Why?
+
+its undefined as log function is undefined.
+
+![](log.png)
+
 1. What are two good rules of thumb for picking a learning rate from the learning rate finder?
+
+    - One order of magnitude less than where the minimum loss was achieved (i.e., the minimum divided by 10)
+    
+    - The last point where the loss was clearly decreasing
+
 1. What two steps does the `fine_tune` method do?
+
+When we create a model from a pretrained network fastai automatically freezes all of the pretrained layers for us. When we call the fine_tune method fastai does two things:
+
+Trains the randomly added layers for one epoch, with all other layers frozen
+Unfreezes all of the layers, and trains them all for the number of epochs requested
+
 1. In Jupyter Notebook, how do you get the source code for a method or function?
+
+learn.fine_tune??
+
 1. What are discriminative learning rates?
+
+different learning rate to train earliest and the final layer of te model 
+
 1. How is a Python `slice` object interpreted when passed as a learning rate to fastai?
+
+fastai lets you pass a Python slice object anywhere that a learning rate is expected. The first value passed will be the learning rate in the earliest layer of the neural network, and the second value will be the learning rate in the final layer. 
+
 1. Why is early stopping a poor choice when using 1cycle training?
+
+Before the days of 1cycle training it was very common to save the model at the end of each epoch, and then select whichever model had the best accuracy out of all of the models saved in each epoch. This is known as early stopping. However, this is very unlikely to give you the best answer, because those epochs in the middle occur before the learning rate has had a chance to reach the small values, where it can really find the best result. Therefore, if you find that you have overfit, what you should actually do is retrain your model from scratch, and this time select a total number of epochs based on where your previous best results were found.
+
 1. What is the difference between `resnet50` and `resnet101`?
+
+More number if layers of activation and weights
+
 1. What does `to_fp16` do?
 
+Used to indicate mixed precision training callded half precsion floating points
 
+****
 
 Now if we are going to understand how to extract the breed of each pet from each image we're going to need to understand how this data is laid out. Such details of data layout are a vital piece of the deep learning puzzle. Data is usually provided in one of these two ways:
 
