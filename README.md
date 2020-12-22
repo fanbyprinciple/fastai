@@ -91,6 +91,8 @@ working with test data
 
     * Ranczr chest - https://www.kaggle.com/c/ranzcr-clip-catheter-line-classification
 
+    * Bar code dataset - https://www.kaggle.com/fanbyprinciple/bar-code-detection-annotated-with-fastai-v4/edit/run/49949861 - can it be used for regression?
+
   * NLP:
 
     * Toxic classification: <https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data>
