@@ -30,6 +30,17 @@ https://www.kaggle.com/fanbyprinciple/fastai-v4-walkthrough/edit
 
 ![](ordinal.png)
 
+Creating a rudimentary decision tree from scratch:
+
+![](handmade.png)
+
+Using add datepart in fastai
+
+![](add_datepart.png)
+
+Post completion look at :
+https://www.kaggle.com/c/malware-classification/data
+
 
 
 

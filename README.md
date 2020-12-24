@@ -51,6 +51,8 @@ working with test data
 
     * IEEE fraud detection :<https://www.kaggle.com/c/ieee-fraud-detection/overview>
 
+    * Malware detection: https://www.kaggle.com/c/malware-classification/data
+
   * Recommendation System:
 
     * Create an Artificial Sommelier: <https://www.kaggle.com/zynicide/wine-reviews>
