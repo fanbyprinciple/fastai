@@ -38,6 +38,10 @@ Using add datepart in fastai
 
 ![](add_datepart.png)
 
+Creating a decisiontree based on the model
+
+![](decision.png)
+
 Post completion look at :
 https://www.kaggle.com/c/malware-classification/data
 
