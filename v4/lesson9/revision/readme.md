@@ -42,6 +42,30 @@ Creating a decisiontree based on the model
 
 ![](decision.png)
 
+Looking at decision tree through dtreeviz
+![](dtreeviz.png)
+
+Looking at random forest classifier
+![](random.png)
+
+Looking at confidence by various ensembles of trees
+![](confidence.png)
+
+Looking at feature importance
+![](importance.png)
+
+Looking how similar are the parameters
+![](cluster.png)
+
+Looking at the max_counts of a column value
+![](maxcount.png)
+
+Individual prediction
+![](individual.png)
+
+Extrapolation problem of random forest, it cannot predict outside the domain
+![](extrapolation.png)
+
 Post completion look at :
 https://www.kaggle.com/c/malware-classification/data
 
