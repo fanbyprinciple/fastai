@@ -26,7 +26,7 @@ Workbook-
 https://colab.research.google.com/github/fastai/fastbook/blob/master/09_tabular.ipynb#scrollTo=jo3ZZbfGQyHJ
 
 My kernel-
-https://www.kaggle.com/fanbyprinciple/fastai-v4-walkthrough/edit
+https://www.kaggle.com/fanbyprinciple/fastai-v4-walkthrough-bluebook-for-bulldozers/edit/run/50349595
 
 ![](ordinal.png)
 
@@ -65,6 +65,9 @@ Individual prediction
 
 Extrapolation problem of random forest, it cannot predict outside the domain
 ![](extrapolation.png)
+
+Using neural network:
+![](neural.png)
 
 Post completion look at :
 https://www.kaggle.com/c/malware-classification/data
