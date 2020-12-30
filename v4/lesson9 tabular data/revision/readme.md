@@ -72,6 +72,12 @@ Using neural network:
 Post completion look at :
 https://www.kaggle.com/c/malware-classification/data
 
+The malware data is too big to fit in kaggle kernel
+
+however I wrked with house data.
+
+![](house.png)
+
 
 
 

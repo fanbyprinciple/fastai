@@ -53,6 +53,8 @@ working with test data
 
     * Malware detection: https://www.kaggle.com/c/malware-classification/data
 
+    * House Prices: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
+
   * Recommendation System:
 
     * Create an Artificial Sommelier: <https://www.kaggle.com/zynicide/wine-reviews>
