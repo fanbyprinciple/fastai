@@ -55,6 +55,8 @@ working with test data
 
     * House Prices: https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
+    * Titanic : https://www.kaggle.com/c/titanic/notebooks?competitionId=3136&searchQuery=fastai
+
   * Recommendation System:
 
     * Create an Artificial Sommelier: <https://www.kaggle.com/zynicide/wine-reviews>

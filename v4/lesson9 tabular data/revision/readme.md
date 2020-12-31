@@ -78,6 +78,11 @@ however I wrked with house data.
 
 ![](house.png)
 
+Submitting to kaggle : 
+https://www.kaggle.com/fanbyprinciple/titanic-2-fastai-v4-kernel-submit?scriptVersionId=50683461
+
+![](prediction.png)
+
 
 
 
