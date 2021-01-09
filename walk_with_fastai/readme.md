@@ -11,3 +11,7 @@ Can we use it on some other kaggle kernel?
 Intro to pandas
 
 ![](titanic.png)
+
+Bayesian Optimisation
+
+![](bayesian.png)
