@@ -68,6 +68,11 @@ Still don't know how to predict on the data.
 issue:
 <https://forums.fast.ai/t/single-prediction-on-new-data-from-tabular-data-learner/28792>
 
+Running the tabular playground notebook at:
+<https://www.kaggle.com/c/tabular-playground-series-jan-2021/overview/evaluation>
+
+![](tabular_playground.png)
+
 ## questionaire
 
 1. What is a continuous variable?

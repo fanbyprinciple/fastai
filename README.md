@@ -46,6 +46,8 @@ working with test data
 
   * Tabular data:
 
+    * Tabular Playground : <https://www.kaggle.com/c/tabular-playground-series-jan-2021/overview/evaluation>
+    
     * Heart disease classification: <https://www.kaggle.com/ronitf/heart-disease-uci>
 
     * Blue book for bulldozers: <https://www.kaggle.com/c/bluebook-for-bulldozers>
