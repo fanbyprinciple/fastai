@@ -213,3 +213,6 @@ Because the validation set for instance of a time series will have differnet val
 1. Use the embeddings from the neural net in this chapter in a random forest, and see if you can improve on the random forest results we saw.
 1. Explain what each line of the source of `TabularModel` does (with the exception of the `BatchNorm1d` and `Dropout` layers).
 
+Inference still a problem:
+![](./img/inference_problem.png)
+
