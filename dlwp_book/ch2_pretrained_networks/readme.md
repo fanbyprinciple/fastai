@@ -12,4 +12,8 @@ The result of imagenet
 
 2. GAN
 
-Page 27
+The overarching aim is to fake an image close to original. 
+
+https://colab.research.google.com/drive/1H2nqTAjUVGlBGqj1nItlarirUAO8SfBw#scrollTo=OBb8JTQFyWJ1
+
+![](man_riding.jpg)
