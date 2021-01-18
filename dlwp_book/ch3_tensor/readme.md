@@ -13,4 +13,10 @@ Unsqueeze helps indent each individual element in a larger array
 Einsum are fancy
 ![](einsum.png)
 
-page 47.
+page 78.
+
+Trying to greyscale picture:
+![](grey_yoda.png)
+
+Trying too much:
+![](green_yoda.png)
