@@ -56,4 +56,11 @@ Tensor dp indexing into the same storage even thoough they refer to different da
 
 ![](tensor_props.png)
 
-### shifitn tensors on GPUSS
+### shifting tensors on GPUS
+
+using device attribute. accessing gpu:
+
+points.cuda(), points.cuda(0), points_gpu.cpu()`
+
+To look at various operations on a tensor:
+![](tensor_exercises.png)
