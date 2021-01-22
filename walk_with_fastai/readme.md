@@ -15,3 +15,9 @@ Intro to pandas
 Bayesian Optimisation
 
 ![](bayesian.png)
+
+Ensembling walkthrough 
+
+https://www.kaggle.com/fanbyprinciple/ensembling-walkthrough-fastai
+
+![](ensembling.png)
