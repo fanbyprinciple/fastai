@@ -18,3 +18,5 @@ Page 111
 
 Reading different format images
 ![](dicom.png)
+
+Next objective : do mnist > then malware as image PE > microsoft challlenge
