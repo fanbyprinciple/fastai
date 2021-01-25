@@ -20,3 +20,10 @@ Reading different format images
 ![](dicom.png)
 
 Next objective : do mnist > then malware as image PE > microsoft challlenge
+
+MNIST roadblock: https://www.kaggle.com/fanbyprinciple/fastai-v4-mnist/
+
+chp_13: https://colab.research.google.com/github/fastai/fastbook/blob/master/13_convolutions.ipynb#scrollTo=caRLUjcYgHmp
+
+![](chp13_error.png)
+
