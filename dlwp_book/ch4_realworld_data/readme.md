@@ -30,7 +30,7 @@ trying again:
 
 https://www.kaggle.com/fanbyprinciple/fastai-v4-mnist/
 
-The problem with scatter function it taes long tensors:
+Resolvingscatter function it takes long tensors:
 
 ![](scatter.png)
 
