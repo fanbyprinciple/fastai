@@ -24,3 +24,9 @@ but something wrong with the dataset itself.
 https://www.kaggle.com/fanbyprinciple/fashion-with-fastai/
 
 ![](fashion.png)
+
+1. Fastai mnist revisited
+
+https://www.kaggle.com/fanbyprinciple/fastai-v4-mnist-again/edit
+
+![](mnist_revisited.png)
