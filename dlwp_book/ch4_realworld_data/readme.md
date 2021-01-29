@@ -34,5 +34,7 @@ Resolvingscatter function it takes long tensors:
 
 ![](scatter.png)
 
-page 112
+Crude classifier for wine :
+
+![](crude_wine.png)
 
