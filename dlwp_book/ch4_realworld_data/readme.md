@@ -34,16 +34,20 @@ Resolvingscatter function it takes long tensors:
 
 ![](scatter.png)
 
-Crude classifier for wine :
+### Crude classifier for wine :
 
 ![](crude_wine.png)
 
-page 117
-
 https://colab.research.google.com/drive/1NsBwWpz-R8-Aonx_S7T0RPwkW_Ym8BAI
 
-Using time series:
+### Using time series:
 
 ![](onehot.png)
 
 https://www.kaggle.com/fanbyprinciple/time-series-bikesusing-pytorch/
+
+### Word processing :
+
+![](word_encoding)
+
+https://www.kaggle.com/fanbyprinciple/pride-and-prejudice-text-encoding/
