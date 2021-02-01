@@ -51,3 +51,10 @@ https://www.kaggle.com/fanbyprinciple/time-series-bikesusing-pytorch/
 ![](word_encoding)
 
 https://www.kaggle.com/fanbyprinciple/pride-and-prejudice-text-encoding/
+
+
+### Exercise :
+
+![](exercise.png)
+
+https://colab.research.google.com/drive/1pWPFdaPlqI1lzl8P0zlwUUKRbNhDrrU8#scrollTo=jh41lB1pwSxB
