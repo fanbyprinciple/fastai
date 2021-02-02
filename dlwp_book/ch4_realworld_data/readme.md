@@ -58,3 +58,9 @@ https://www.kaggle.com/fanbyprinciple/pride-and-prejudice-text-encoding/
 ![](exercise.png)
 
 https://colab.research.google.com/drive/1pWPFdaPlqI1lzl8P0zlwUUKRbNhDrrU8#scrollTo=jh41lB1pwSxB
+
+### Extra notebook :
+
+![](extra.png)
+
+https://www.kaggle.com/fanbyprinciple/video-audio-tesnor-conversion-using-pytorch
