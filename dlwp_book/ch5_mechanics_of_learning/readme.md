@@ -19,6 +19,27 @@ error, evaluated on unseen data, falls below an acceptable level
 
 ![](prediction.png)
 
+After modelling :
+
+![](prediction_f.png)
+
+
+## Pytorch autograd
+
+we just saw a simple example of backpropagation: we computed the gradient of a composition of functions—the model and the loss—with
+respect to their innermost parameters (w and b) by propagating derivatives backward
+using the chain rule
+
+## Computing gradient automatically
+
+This is when PyTorch tensors come to the rescue, with a PyTorch component called
+autograd
+
+![](autograd.png)
+
+## optimisers ala carte
+
 https://www.kaggle.com/fanbyprinciple/simplest-model-parameter-estimation/edit
 
-page 146
+page 158
+
