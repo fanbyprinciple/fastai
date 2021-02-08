@@ -41,5 +41,11 @@ autograd
 
 https://www.kaggle.com/fanbyprinciple/simplest-model-parameter-estimation/edit
 
-page 158
+![](training_loop.png)
+
+## Excercises left
+
+page 169
+
+
 
