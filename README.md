@@ -47,6 +47,8 @@ working with test data
   * Tabular data:
 
     * Tabular Playground : <https://www.kaggle.com/c/tabular-playground-series-jan-2021/overview/evaluation>
+
+    * Santander Customer Transaction Prediction : <https://www.kaggle.com/c/santander-customer-transaction-prediction>
     
     * Heart disease classification: <https://www.kaggle.com/ronitf/heart-disease-uci>
 
