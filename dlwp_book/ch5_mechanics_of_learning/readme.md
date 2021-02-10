@@ -43,9 +43,31 @@ https://www.kaggle.com/fanbyprinciple/simplest-model-parameter-estimation/edit
 
 ![](training_loop.png)
 
-## Excercises left
+## Excercises 
 
-page 169
+![](exercises.png)
 
+## Summary
 
-
+ Linear models are the simplest reasonable model to use to fit data.
+ Convex optimization techniques can be used for linear models, but they do not
+generalize to neural networks, so we focus on stochastic gradient descent for
+parameter estimation.
+ Deep learning can be used for generic models that are not engineered for solving a specific task, but instead can be automatically adapted to specialize themselves on the problem at hand.
+ Learning algorithms amount to optimizing parameters of models based on
+observations. A loss function is a measure of the error in carrying out a task,
+such as the error between predicted outputs and measured values. The goal is
+to get the loss function as low as possible.
+ The rate of change of the loss function with respect to the model parameters
+can be used to update the same parameters in the direction of decreasing loss.
+ The optim module in PyTorch provides a collection of ready-to-use optimizers
+for updating parameters and minimizing loss functions.
+ Optimizers use the autograd feature of PyTorch to compute the gradient for
+each parameter, depending on how that parameter contributes to the final output. This allows users to rely on the dynamic computation graph during complex forward passes.
+ Context managers like with torch.no_grad(): can be used to control autograd’s behavior.
+ Data is often split into separate sets of training samples and validation samples.
+This lets us evaluate a model on data it was not trained on.
+ Overfitting a model happens when the model’s performance continues to
+improve on the training set but degrades on the validation set. This is usually
+due to the model not generalizing, and instead memorizing the desired outputs
+for the training set
