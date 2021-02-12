@@ -9,3 +9,9 @@ https://www.kaggle.com/whoosis/barcode-detection-annotated-dataset
 
 regex to detect 1 = /\d.
 
+
+## Captcha break
+
+from adam gietgey : https://colab.research.google.com/drive/1KO-FMR2C6QPpYWl_BMiWBu9fXxkKnWFe#scrollTo=ZrEb_Jv77j9n
+
+![](captcha_seperated.png)
