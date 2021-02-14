@@ -30,3 +30,7 @@ https://www.kaggle.com/fanbyprinciple/fashion-with-fastai/
 https://www.kaggle.com/fanbyprinciple/fastai-v4-mnist-again/edit
 
 ![](mnist_revisited.png)
+
+1. chinese mnist
+
+![](chinese-mnist.png)

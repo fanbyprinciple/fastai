@@ -15,3 +15,4 @@ regex to detect 1 = /\d.
 from adam gietgey : https://colab.research.google.com/drive/1KO-FMR2C6QPpYWl_BMiWBu9fXxkKnWFe#scrollTo=ZrEb_Jv77j9n
 
 ![](captcha_seperated.png)
+
