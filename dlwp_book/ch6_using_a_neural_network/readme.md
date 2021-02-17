@@ -141,7 +141,11 @@ start with a simple linear module
 
 https://www.kaggle.com/fanbyprinciple/c-to-f-with-pytorch-nn/edit
 
-page 187
+page 192
+
+but I am getting wrong result after making my neiral model
+
+![](wrong_result.png)
 
 
 
