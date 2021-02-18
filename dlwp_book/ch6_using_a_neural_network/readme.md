@@ -147,6 +147,15 @@ but I am getting wrong result after making my neiral model
 
 ![](wrong_result.png)
 
+After adjusting lr and a typo got result:
 
+![](adjust_lr.png)
 
+Now linearmodel is close to perfect
+
+![](correct_linear.png)
+
+But the neural network model is not
+
+![](wrong_seq.png)
 
