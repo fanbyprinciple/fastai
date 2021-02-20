@@ -159,3 +159,6 @@ But the neural network model is not
 
 ![](wrong_seq.png)
 
+Same error in exercise
+
+![](exercise1.png)
