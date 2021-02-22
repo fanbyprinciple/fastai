@@ -162,3 +162,9 @@ But the neural network model is not
 Same error in exercise
 
 ![](exercise1.png)
+
+Exercise two on wine data set:
+
+https://www.kaggle.com/fanbyprinciple/wine-quality-with-pytorch/edit
+
+![](excercise2_normalisation.png)
