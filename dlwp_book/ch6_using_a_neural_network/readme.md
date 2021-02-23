@@ -163,8 +163,41 @@ Same error in exercise
 
 ![](exercise1.png)
 
+a. What changes result in more linear output from the model?
+
+could not verify.
+
+b. Can you get the model to obviously overfit the data?
+
+not really because the training loss plateus even on increasing the epochs
+
 Exercise two on wine data set:
 
 https://www.kaggle.com/fanbyprinciple/wine-quality-with-pytorch/edit
 
 ![](excercise2_normalisation.png)
+
+Finally neural network model works!
+
+![](excercise2_result.png)
+
+looking at linear and neural net model:
+
+![](exercise2.png)
+
+a. How long does it take to train compared to the temperature data we have
+been using?
+
+a lot more time for linear model
+
+b Can you explain what factors contribute to the training times?
+
+extra parameters
+
+c Can you get the loss to decrease while training on this dataset?
+
+yes
+
+d How would you go about graphing this dataset?
+
+dont know need to plot all 11 parameters somehow as a scatter graph.
