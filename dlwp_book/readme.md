@@ -46,3 +46,11 @@ human-annotated data.
  
 Chapter 14 implements the final end-to-end project: diagnosis of cancer patients
 using our new segmentation model followed by classification.
+
+Extra 
+
+1. Pytorch 60min blitz official tutorial
+
+https://www.kaggle.com/fanbyprinciple/pytorch-blitz-tutorial/
+
+![](./extra/jacobian.png)
