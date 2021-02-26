@@ -1,5 +1,9 @@
 # Tellingbirds from airplanes : learning from images
 
-page 165
+page 209
 
-https://www.kaggle.com/search?q=cifar-10+in%3Adatasets
+https://www.kaggle.com/fanbyprinciple/cifar10-explanation-with-pytorch/edit
+
+Working with cifar dataset
+![](normalised_car.png)
+
