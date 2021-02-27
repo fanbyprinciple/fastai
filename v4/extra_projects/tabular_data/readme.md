@@ -12,3 +12,6 @@ Use of testdl for prediction
 https://www.kaggle.com/fanbyprinciple/santander-fastai
 
 ![](test_dl.png)
+## Kaggle Tabular Playgorund
+
+![](playground.png)
