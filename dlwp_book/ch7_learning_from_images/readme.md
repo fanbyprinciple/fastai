@@ -25,3 +25,15 @@ to use it on text data that is appropriately represented.
 
 PAge 221
 
+Excercise:
+
+1. randomcrop:
+
+![](randomcrop.png)
+
+2. Mseloss:
+
+![](mseloss.png)
+
+3. One way to reduce overfitting is:
+creating a simplified model
