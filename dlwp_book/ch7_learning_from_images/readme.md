@@ -26,6 +26,7 @@ to use it on text data that is appropriately represented.
 PAge 221
 
 Excercise:
+https://www.kaggle.com/fanbyprinciple/cifar10-exploration-using-pytorch/edit
 
 1. randomcrop:
 
@@ -37,3 +38,4 @@ Excercise:
 
 3. One way to reduce overfitting is:
 creating a simplified model
+
