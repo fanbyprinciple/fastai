@@ -56,5 +56,11 @@ https://www.kaggle.com/fanbyprinciple/cifar10-with-simple-convolutions-in-pytorc
 
 page 230
 
+Using Modules to build our own neural network
 
+![](module.png)
+
+page 242
+
+need to cut the jargon
 
