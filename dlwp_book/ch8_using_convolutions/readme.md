@@ -64,3 +64,8 @@ page 242
 
 need to cut the jargon
 
+done
+
+The models layers intermediate shape:
+![](model_shape.png)
+
