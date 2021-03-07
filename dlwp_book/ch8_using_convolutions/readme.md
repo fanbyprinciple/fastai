@@ -52,7 +52,7 @@ creating convolutions:
 
 ![](without_padding.png)
 
-https://www.kaggle.com/fanbyprinciple/cifar10-with-simple-convolutions-in-pytorch-part-2/edit
+https://www.kaggle.com/fanbyprinciple/cifar10-with-simple-convolutions-in-pytorch/edit
 
 page 230
 
@@ -68,4 +68,7 @@ done
 
 The models layers intermediate shape:
 ![](model_shape.png)
+
+Steps to train a model:
+![](step_in_training.png)
 
