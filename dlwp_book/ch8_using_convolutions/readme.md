@@ -69,6 +69,14 @@ done
 The models layers intermediate shape:
 ![](model_shape.png)
 
+page 246
+
 Steps to train a model:
 ![](step_in_training.png)
+
+Using dropout
+![](dropout.png)
+
+Dropout shape of mode
+![](drop_result.png)
 
