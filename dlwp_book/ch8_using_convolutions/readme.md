@@ -80,3 +80,5 @@ Using dropout
 Dropout shape of mode
 ![](drop_result.png)
 
+Batch norm
+![](batchnorm.png)
