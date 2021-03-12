@@ -54,13 +54,9 @@ creating convolutions:
 
 https://www.kaggle.com/fanbyprinciple/cifar10-with-simple-convolutions-in-pytorch/edit
 
-page 230
-
 Using Modules to build our own neural network
 
 ![](module.png)
-
-page 242
 
 need to cut the jargon
 
@@ -68,8 +64,6 @@ done
 
 The models layers intermediate shape:
 ![](model_shape.png)
-
-page 246
 
 Steps to train a model:
 ![](step_in_training.png)
@@ -82,3 +76,6 @@ Dropout shape of mode
 
 Batch norm
 ![](batchnorm.png)
+
+Final prediction
+![](prediction.png)
