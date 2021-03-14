@@ -79,3 +79,5 @@ Batch norm
 
 Final prediction
 ![](prediction.png)
+
+How is the prediction actually happening?
