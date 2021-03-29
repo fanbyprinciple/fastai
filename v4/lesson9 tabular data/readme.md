@@ -73,6 +73,9 @@ Running the tabular playground notebook at:
 
 ![](tabular_playground.png)
 
+New tabular problem:
+![](tabular_mar21.png)
+
 ## questionaire
 
 1. What is a continuous variable?
