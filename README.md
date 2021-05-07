@@ -1,7 +1,7 @@
 # fastai 
 ## Fastbook
 
-my fast.ai fastbook and v4 repo :smile_cat:
+my pytorch, fast.ai, fastbook and v4 repo :smile_cat:
 
 fastai makes me happy, to be able to finally put ml into practice !
 
