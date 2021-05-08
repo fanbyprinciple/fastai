@@ -18,6 +18,14 @@ After 200 epochs :
 # Variational autoencoder
 https://www.kaggle.com/fanbyprinciple/creating-variational-autoencoders-in-pytorch/edit
 
+taken from : https://www.youtube.com/watch?v=zp8clK9yCro
+
 ![](variational_autoencoder.png)
+
+# Creating a chat application
+https://www.kaggle.com/fanbyprinciple/creating-a-chatbot-with-pytorch/
+
+![](samus_chat.gif)
+
 
 
