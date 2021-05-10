@@ -27,5 +27,8 @@ https://www.kaggle.com/fanbyprinciple/creating-a-chatbot-with-pytorch/
 
 ![](samus_chat.gif)
 
+# Name predictor
 
+Official tutorial
+![](rnn_name_predictor.png)
 
