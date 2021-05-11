@@ -32,3 +32,11 @@ https://www.kaggle.com/fanbyprinciple/creating-a-chatbot-with-pytorch/
 Official tutorial
 ![](rnn_name_predictor.png)
 
+# Resnet from paper
+
+https://www.kaggle.com/fanbyprinciple/implementing-resnet-from-paper-in-pytorch/edit
+
+![](resnet_from_paper.png)
+
+
+
