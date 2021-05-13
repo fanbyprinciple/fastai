@@ -38,5 +38,15 @@ https://www.kaggle.com/fanbyprinciple/implementing-resnet-from-paper-in-pytorch/
 
 ![](resnet_from_paper.png)
 
+# Yolo
+
+https://www.kaggle.com/fanbyprinciple/model-review-understanding-yolo-v3-with-pascal/edit
+
+from youtube : https://www.youtube.com/watch?v=Grir6TZbc1M
+
+46 min
+
+![](yolo_mode.png)
+
 
 
