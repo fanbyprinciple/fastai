@@ -48,5 +48,14 @@ from youtube : https://www.youtube.com/watch?v=Grir6TZbc1M
 
 ![](yolo_mode.png)
 
+# Learning Pytorch
+
+## creating a simple neural network
+
+![](learning_pytorch_1.png)
+
+Somehow this model seems biased towards number 7.
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-1-creating-a-simple-network/edit
 
 
