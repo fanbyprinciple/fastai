@@ -58,4 +58,12 @@ Somehow this model seems biased towards number 7.
 
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-1-creating-a-simple-network/edit
 
+## creating a Convolutional neural network
 
+![](learning_pytorch_2_custom_dataset.png)
+
+I wonder why x expects a float while y should be long
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-2-creating-a-cnn/edit
+
+I am also getting very low accuracy here.
