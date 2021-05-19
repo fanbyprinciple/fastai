@@ -67,3 +67,15 @@ I wonder why x expects a float while y should be long
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-2-creating-a-cnn/edit
 
 I am also getting very low accuracy here.
+
+The reason was a programmatical error while checking accuracy
+
+![](learning_pytorch_2_correct_result.png)
+
+## creating an RNN and GRU
+
+created the basis
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-3-coding-an-rnn/edit
+
+![](learning_pytorch_3_rnn.png)
