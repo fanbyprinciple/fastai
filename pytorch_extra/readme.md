@@ -72,10 +72,18 @@ The reason was a programmatical error while checking accuracy
 
 ![](learning_pytorch_2_correct_result.png)
 
-## creating an RNN and GRU
+## creating an RNN and GRU and LSTM
 
 created the basis
 
-https://www.kaggle.com/fanbyprinciple/learning-pytorch-3-coding-an-rnn/edit
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-3-coding-an-rnn-gru-lstm/edit
 
 ![](learning_pytorch_3_rnn.png)
+
+implementing LSTM and GRU
+
+![](learning_pytorch_3_lstm.png)
+
+## Implementing RNN iwth time series data
+
+https://www.youtube.com/watch?v=AvKSPZ7oyVg
