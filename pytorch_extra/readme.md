@@ -87,3 +87,9 @@ implementing LSTM and GRU
 ## Implementing RNN iwth time series data
 
 https://www.youtube.com/watch?v=AvKSPZ7oyVg
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-4-time-sequence-with-lstm/edit
+
+![](learning_pytorch_4_not_working.png)
+
+https://colab.research.google.com/drive/1vy9iY5q8EbgVjgatJic-azSpMHrc6Qz5#scrollTo=Y7rt93ysFOaB
