@@ -93,3 +93,12 @@ https://www.kaggle.com/fanbyprinciple/learning-pytorch-4-time-sequence-with-lstm
 ![](learning_pytorch_4_not_working.png)
 
 https://colab.research.google.com/drive/1vy9iY5q8EbgVjgatJic-azSpMHrc6Qz5#scrollTo=Y7rt93ysFOaB
+
+![](learning_pytorch_4_sine_wave.png)
+
+## Implementing a bidirectional LSTM
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-5-creating-a-bidirectional-lstm/edit
+
+video:
+https://www.youtube.com/watch?v=jGst43P-TJA&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=6
