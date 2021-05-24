@@ -100,5 +100,17 @@ https://colab.research.google.com/drive/1vy9iY5q8EbgVjgatJic-azSpMHrc6Qz5#scroll
 
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-5-creating-a-bidirectional-lstm/edit
 
+![](learning_pytorch_5_handsign.png)
+
 video:
 https://www.youtube.com/watch?v=jGst43P-TJA&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=6
+
+### saving model
+
+![](learning_pytorch_5_saving_model.png)
+
+## Transfer learning
+
+https://www.youtube.com/watch?v=qaDe0qQZ5AQ&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=8
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-6-transfer-learning/edit
