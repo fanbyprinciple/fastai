@@ -113,4 +113,9 @@ https://www.youtube.com/watch?v=jGst43P-TJA&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ
 
 https://www.youtube.com/watch?v=qaDe0qQZ5AQ&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=8
 
+![](learning_pytorch_6_transfer_learning.png)
+
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-6-transfer-learning/edit
+
+The thing to note here was when I used VGG with mnist, its images were too small. But this is a nice method to change the default models.
+
