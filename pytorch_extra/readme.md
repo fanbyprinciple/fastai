@@ -119,3 +119,14 @@ https://www.kaggle.com/fanbyprinciple/learning-pytorch-6-transfer-learning/edit
 
 The thing to note here was when I used VGG with mnist, its images were too small. But this is a nice method to change the default models.
 
+## Loading a dataset
+https://www.youtube.com/watch?v=ZoZHd0Zm3RY&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=9
+
+Its is showing an error right now.
+
+![](learning_pytorch_7_error_multi_target.png)
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-7-custom-dataset/edit
+
+
+
