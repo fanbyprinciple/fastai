@@ -128,5 +128,19 @@ Its is showing an error right now.
 
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-7-custom-dataset/edit
 
+After much code changing , it works!
+
+![](learning_pytorch_7_custom_dataset.png)
+
+## Loading a Text dataset
+
+https://www.youtube.com/watch?v=9sHcLvVXsns&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=10
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-8-working-with-text-dataset/edit
+
+
+
+
+
 
 
