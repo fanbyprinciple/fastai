@@ -136,9 +136,20 @@ After much code changing , it works!
 
 https://www.youtube.com/watch?v=9sHcLvVXsns&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=10
 
+getting the error
+
+1. bad caption numbers
+2. cannot display proper images
+
+![](learning_pytorch_8_error.png)
+
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-8-working-with-text-dataset/edit
 
+## Augmenting dataset using torchvision
 
+https://www.youtube.com/watch?v=Zvd276j9sZ8&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=11
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-9-data-augmentation-torchvision/edit
 
 
 
