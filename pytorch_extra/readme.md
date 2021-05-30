@@ -139,7 +139,7 @@ https://www.youtube.com/watch?v=9sHcLvVXsns&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ
 getting the error
 
 1. bad caption numbers
-2. cannot display proper images
+2. cannot display proper images - handled.
 
 ![](learning_pytorch_8_error.png)
 
