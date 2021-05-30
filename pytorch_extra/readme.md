@@ -143,11 +143,20 @@ getting the error
 
 ![](learning_pytorch_8_error.png)
 
+check code here :
+https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/custom_dataset_txt/loader_customtext.py
+
+
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-8-working-with-text-dataset/edit
 
 ## Augmenting dataset using torchvision
 
 https://www.youtube.com/watch?v=Zvd276j9sZ8&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=11
+
+
+Image dataset loaded
+
+![](learning_pytorch_9_image_dataset_loaded.png)
 
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-9-data-augmentation-torchvision/edit
 
