@@ -160,6 +160,7 @@ Image dataset loaded
 
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-9-data-augmentation-torchvision/edit
 
+![](learning_pytorch_9_data_augmentation.png)
 
 
 
