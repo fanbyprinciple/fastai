@@ -162,6 +162,16 @@ https://www.kaggle.com/fanbyprinciple/learning-pytorch-9-data-augmentation-torch
 
 ![](learning_pytorch_9_data_augmentation.png)
 
+## Albumentations tutorial
+
+https://www.youtube.com/watch?v=rAdLwKJBvPM&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=12
+
+![](learning_pytorch_10_audrey.png)
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-10-working-with-albumentation/edit
+
+
+
 
 
 
