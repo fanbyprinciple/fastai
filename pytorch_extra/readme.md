@@ -168,7 +168,9 @@ https://www.youtube.com/watch?v=rAdLwKJBvPM&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ
 
 ![](learning_pytorch_10_audrey.png)
 
-https://www.kaggle.com/fanbyprinciple/learning-pytorch-10-working-with-albumentation/edit
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-10-albumentations-dataloader/edit
+
+![](learning_pytorch_10_albumentation.png)
 
 
 
