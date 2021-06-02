@@ -172,6 +172,19 @@ https://www.kaggle.com/fanbyprinciple/learning-pytorch-10-albumentations-dataloa
 
 ![](learning_pytorch_10_albumentation.png)
 
+## Dealing with database imbalances
+
+Not quite up there:
+
+https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/Imbalanced_classes/main.py
+
+![](learning_pytorch_11_imbalances.png)
+
+https://www.kaggle.com/fanbyprinciple/learning-pytorch-11-dealing-with-data-imbalances/edit
+
+Needs work.
+
+
 
 
 
