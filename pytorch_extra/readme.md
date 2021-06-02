@@ -182,7 +182,7 @@ https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pyt
 
 https://www.kaggle.com/fanbyprinciple/learning-pytorch-11-dealing-with-data-imbalances/edit
 
-Needs work.
+It actually created too much compensation.
 
 
 
