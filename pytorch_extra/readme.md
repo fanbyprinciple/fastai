@@ -184,6 +184,62 @@ https://www.kaggle.com/fanbyprinciple/learning-pytorch-11-dealing-with-data-imba
 
 It actually created too much compensation.
 
+## Tips and tricks of training
+
+https://www.youtube.com/watch?v=O2wJ3tkc-TU&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=14
+
+1. Overfit the batch first
+
+TO check wether the code is working or not
+
+use `next.iter(train_dataloader)` to extract a single batch and thentrain for 1000 at batch size 1, to check if loss is actually going down.
+
+2. while checking use model.eval() and model.train()
+
+This removes stuff like batchnorma nd dropouts which is not required while doing inference
+
+3. Dont forget to zero_grad() the optimizer
+
+Because you want ot delete the accumaulated gardients of previous batch
+
+4. dont use softmax with crossentropy loss
+
+cross entropy loss in iteslef is two things its softmax followed by log liklihood
+
+5. set bias =false with batchnorm
+
+gives equivalent performance
+
+6. dont confuse view with permute
+
+they are not the same bro
+
+7. Dont use wrong transformation for your dataset
+
+dont transpose.RandomHorizontalFlip(p=1.0) with MNIST because that is going to change the digit entirely
+
+8. always put shuffle=true while making your dataloader
+
+except for in time based data like time series
+
+9. NOrmalize the data
+
+with transform.Nomalize(mean=(), std=())
+
+10. in LSTM, GRU and RNN use torch.nn.utils.clip_grad_norm(model.parameters(), max_norm=1)
+
+Because Alddin Perrson said so.
+
+# LeNet implementation
+
+https://www.kaggle.com/fanbyprinciple/pytorch-lenet-implementation/edit
+
+Trying to implement the following architecture:
+
+![](lenet_1.png)
+
+
+
 
 
 
