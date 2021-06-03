@@ -232,11 +232,17 @@ Because Alddin Perrson said so.
 
 # LeNet implementation
 
-https://www.kaggle.com/fanbyprinciple/pytorch-lenet-implementation/edit
+https://www.kaggle.com/fanbyprinciple/implementing-lenet-for-digit-recognizer
 
 Trying to implement the following architecture:
 
 ![](lenet_1.png)
+
+ref: https://www.youtube.com/watch?v=fcOW-Zyb5Bo&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=16
+
+Completed the implementation!
+
+![](lenet_2.png)
 
 
 
