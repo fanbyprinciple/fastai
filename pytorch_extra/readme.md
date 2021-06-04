@@ -244,6 +244,15 @@ Completed the implementation!
 
 ![](lenet_2.png)
 
+# VGG implementation
+
+ref: https://www.youtube.com/watch?v=ACmuBbuXn20&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=17
+
+error with the dataset:
+![](vgg_implementation_yoga.png)
+
+notebook : https://www.kaggle.com/fanbyprinciple/pytorch-yoga-detection-using-vgg-from-scratch/edit
+
 
 
 
