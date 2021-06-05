@@ -251,8 +251,11 @@ ref: https://www.youtube.com/watch?v=ACmuBbuXn20&list=PLhhyoLH6IjfxeoooqP9rhU3HJ
 error with the dataset:
 ![](vgg_implementation_yoga.png)
 
-notebook : https://www.kaggle.com/fanbyprinciple/pytorch-yoga-detection-using-vgg-from-scratch/edit
+notebook : https://www.kaggle.com/fanbyprinciple/pytorch-yoga-pose-detection-using-vgg-from-scratch/edit
 
+Implementing the vgg 16 architecture
+
+![](vgg_implementation_model.png)
 
 
 
