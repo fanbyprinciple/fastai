@@ -257,6 +257,15 @@ Implementing the vgg 16 architecture
 
 ![](vgg_implementation_model.png)
 
+Error while makeing vgg from scratch, kaggle kernel cannot handle it.
+
+![](vgg_implementation_scratch.png)
+
+Creating the pretrained VGG model
+
+![](vgg_implementation_pretrained.png)
+
+# GoogleNet/ IceptionNet
 
 
 
