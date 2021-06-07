@@ -1,4 +1,5 @@
-# Pytorch programs
+
+Most of them are sourced from Aladdin Perrsons fantastic youtube channel!
 
 # pytorch images captcha 
 
@@ -7,15 +8,19 @@ https://www.kaggle.com/fanbyprinciple/pytorch-captcha/edit?rvi=1
 ![](captcha_output.png)
 
 # Using style transfer
+
 https://www.kaggle.com/fanbyprinciple/style-transfer-using-pytorch/edit
 
-at low epochs :
+### at low epochs :
+
 ![](style_transfer1.png)
 
-After 200 epochs :
+### After 200 epochs :
+
 ![](style_transfer2.png)
 
 # Variational autoencoder
+
 https://www.kaggle.com/fanbyprinciple/creating-variational-autoencoders-in-pytorch/edit
 
 taken from : https://www.youtube.com/watch?v=zp8clK9yCro
@@ -23,13 +28,15 @@ taken from : https://www.youtube.com/watch?v=zp8clK9yCro
 ![](variational_autoencoder.png)
 
 # Creating a chat application
+
 https://www.kaggle.com/fanbyprinciple/creating-a-chatbot-with-pytorch/
 
 ![](samus_chat.gif)
 
 # Name predictor
 
-Official tutorial
+### Official tutorial:
+
 ![](rnn_name_predictor.png)
 
 # Resnet from paper
@@ -43,8 +50,6 @@ https://www.kaggle.com/fanbyprinciple/implementing-resnet-from-paper-in-pytorch/
 https://www.kaggle.com/fanbyprinciple/model-review-understanding-yolo-v3-with-pascal/edit
 
 from youtube : https://www.youtube.com/watch?v=Grir6TZbc1M
-
-46 min
 
 ![](yolo_mode.png)
 
@@ -190,45 +195,45 @@ https://www.youtube.com/watch?v=O2wJ3tkc-TU&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ
 
 1. Overfit the batch first
 
-TO check wether the code is working or not
+>TO check wether the code is working or not
 
-use `next.iter(train_dataloader)` to extract a single batch and thentrain for 1000 at batch size 1, to check if loss is actually going down.
+>use `next.iter(train_dataloader)` to extract a single batch and thentrain for 1000 at batch size 1, to check if loss is actually going down.
 
 2. while checking use model.eval() and model.train()
 
-This removes stuff like batchnorma nd dropouts which is not required while doing inference
+>This removes stuff like batchnorma nd dropouts which is not required while doing inference
 
 3. Dont forget to zero_grad() the optimizer
 
-Because you want ot delete the accumaulated gardients of previous batch
+>Because you want ot delete the accumaulated gardients of previous batch
 
 4. dont use softmax with crossentropy loss
 
-cross entropy loss in iteslef is two things its softmax followed by log liklihood
+>cross entropy loss in iteslef is two things its softmax followed by log liklihood
 
 5. set bias =false with batchnorm
 
-gives equivalent performance
+>gives equivalent performance
 
 6. dont confuse view with permute
 
-they are not the same bro
+>they are not the same bro
 
 7. Dont use wrong transformation for your dataset
 
-dont transpose.RandomHorizontalFlip(p=1.0) with MNIST because that is going to change the digit entirely
+>dont transpose.RandomHorizontalFlip(p=1.0) with MNIST because that is going to change the digit entirely
 
 8. always put shuffle=true while making your dataloader
 
-except for in time based data like time series
+>except for in time based data like time series
 
 9. NOrmalize the data
 
-with transform.Nomalize(mean=(), std=())
+>with transform.Nomalize(mean=(), std=())
 
 10. in LSTM, GRU and RNN use torch.nn.utils.clip_grad_norm(model.parameters(), max_norm=1)
 
-Because Alddin Perrson said so.
+>Because Alddin Perrson said so.
 
 # LeNet implementation
 
@@ -265,7 +270,21 @@ Creating the pretrained VGG model
 
 ![](vgg_implementation_pretrained.png)
 
-# GoogleNet/ IceptionNet
+# GoogleNet/ InceptionNet
+
+https://www.kaggle.com/fanbyprinciple/pytorch-using-googlenet-to-see-flowers/edit
+
+compiling model:
+
+![](googlenet_implementation.png)
+
+I realised that the size of images is important in the model implementation as the size of the image before the final linear layer matters,
+This however can be changed.
+
+
+
+
+
 
 
 
