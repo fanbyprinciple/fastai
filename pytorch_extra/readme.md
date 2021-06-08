@@ -281,6 +281,11 @@ compiling model:
 I realised that the size of images is important in the model implementation as the size of the image before the final linear layer matters,
 This however can be changed.
 
+Need to workon implementing the entire dataset.
+
+On the entire dataset
+
+![](googlenet_implementation_dataset.png)
 
 
 
