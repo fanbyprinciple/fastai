@@ -287,6 +287,18 @@ On the entire dataset
 
 ![](googlenet_implementation_dataset.png)
 
+# Efficientnet
+
+Didnot understand
+
+![](efficientnet.png)
+
+# Image captioning tutorial
+
+https://www.kaggle.com/fanbyprinciple/pytorch-image-captioning-with-flickr/edit
+
+
+
 
 
 
