@@ -295,8 +295,13 @@ Didnot understand
 
 # Image captioning tutorial
 
-https://www.kaggle.com/fanbyprinciple/pytorch-image-captioning-with-flickr/edit
+https://www.kaggle.com/fanbyprinciple/pytorch-image-captioning-with-flickr/edit/run/65215062
 
+![](image_captioning_dataset_loaded.png)
+
+https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/image_captioning/get_loader.py
+
+Try training the dataset next.
 
 
 
