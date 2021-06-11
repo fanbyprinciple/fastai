@@ -301,7 +301,16 @@ https://www.kaggle.com/fanbyprinciple/pytorch-image-captioning-with-flickr/edit/
 
 https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/image_captioning/get_loader.py
 
-Try training the dataset next.
+Try training the dataset next. The strategy is to read understand implement.
+
+# Kaggle competition Catsvs dogs redux
+
+https://www.kaggle.com/fanbyprinciple/pytorch-tackling-cats-and-dogs/edit
+
+Getting error with tranform:
+
+![](catsvsdogs_error.png)
+
 
 
 
