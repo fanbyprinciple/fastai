@@ -303,13 +303,29 @@ https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pyt
 
 Try training the dataset next. The strategy is to read understand implement.
 
-# Kaggle competition Catsvs dogs redux
+# Kaggle competition Cats vs dogs redux
 
 https://www.kaggle.com/fanbyprinciple/pytorch-tackling-cats-and-dogs/edit
 
 Getting error with tranform:
 
-![](catsvsdogs_error.png)
+![](cats_vs_dogs_error.png)
+
+The error was because of wrong sequence of transforms.
+
+Cats vs dogs barely successful!
+
+![](cats_vs_dogs.png)
+
+review what the my guy Alladin did to the dataset though
+
+he trained an efficient net took the parameter to train a linear regression model here!
+
+https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Kaggles/Dog%20vs%20Cat%20Competition/train.py
+
+what is this sorcery?
+
+
 
 
 
