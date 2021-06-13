@@ -325,6 +325,15 @@ https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Kag
 
 what is this sorcery?
 
+# Kaggle competition Diabetic Retinopathy
+
+My solution: 
+https://www.kaggle.com/fanbyprinciple/pytorch-diabetic-retinopathy/edit
+
+![](diabetic_retinopathy.png)
+
+
+
 
 
 
