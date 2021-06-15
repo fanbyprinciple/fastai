@@ -332,6 +332,70 @@ https://www.kaggle.com/fanbyprinciple/pytorch-diabetic-retinopathy/edit
 
 ![](diabetic_retinopathy.png)
 
+https://www.youtube.com/watch?v=YxQYvhap3kE&list=PLhhyoLH6IjfxkVb3Yx4mjLdwMWP5S_Hct
+
+Looking at Alladins solution:
+
+> He used Albumentations for transforms
+
+> Single dataset class for botht training and validation
+
+> used argmax as loss function
+
+> Using efficientnet
+
+> batch size 64, num epochs 100
+
+> makes a baseline with 120 by 120 images, notes all validation values
+
+> tried preprocessing the image to trim the images
+
+> created modification to loss function
+
+> Getting a balnced dataloader > didnt work for him
+
+> heavy data augmentation
+
+> left and right image augmentation by blending - didnt understand.
+
+> image resolution increase
+
+Thing he didnt try:
+
+> training validation data
+
+> larger model
+
+> larger image resolution
+
+> Ensemble of CNN models
+
+> Tweaking loss values
+
+# Neural net atyle transfer
+
+![](pytorch_style_transfer.png)
+
+https://www.kaggle.com/fanbyprinciple/pytorch-neural-net-transfer/edit
+
+# GAN 
+
+## Simple GAN
+
+things to try
+1. make the code work
+2. larger netwokr?
+3. what if we code a CNN
+4. differnet learning rates
+5. normalisation with batchnorm
+
+![](simple_gan.png)
+
+https://www.kaggle.com/fanbyprinciple/notebook8a5aa86190/edit
+
+
+
+
 
 
 
