@@ -389,10 +389,11 @@ things to try
 4. differnet learning rates
 5. normalisation with batchnorm
 
-![](simple_gan.png)
+Simple GAN after first epoch:
 
-https://www.kaggle.com/fanbyprinciple/notebook8a5aa86190/edit
+![](simple_gan_first_child.png)
 
+https://www.kaggle.com/fanbyprinciple/gans-for-sign-language-from-scratch-in-pytorch/edit
 
 
 
