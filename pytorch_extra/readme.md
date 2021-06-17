@@ -395,6 +395,16 @@ Simple GAN after first epoch:
 
 https://www.kaggle.com/fanbyprinciple/gans-for-sign-language-from-scratch-in-pytorch/edit
 
+## DC GAN
+
+https://www.kaggle.com/fanbyprinciple/pytorch-implementing-dcgan/edit
+
+![](dcgan_1.png)
+
+https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/GANs/2.%20DCGAN/train.py
+
+Need to adapt to new dataset.
+
 
 
 
