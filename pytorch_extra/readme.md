@@ -413,6 +413,15 @@ Need to adapt to new dataset.
 
 https://www.youtube.com/watch?v=WujVlF_6h5A&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=33
 
+loaded baby names data:
+
+https://www.kaggle.com/fanbyprinciple/pytorch-text-1-creating-an-lstm/edit
+
+![](pytorch_text_1_baby_name.png)
+
+Need to create the LSTM again.
+
+
 
 
 
