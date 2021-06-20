@@ -421,6 +421,9 @@ https://www.kaggle.com/fanbyprinciple/pytorch-text-1-creating-an-lstm/edit
 
 Need to create the LSTM again.
 
+Many errors still, need to look at generate function and rnn.
+
+![](pytorch_text_1_many_errors.png)
 
 
 
