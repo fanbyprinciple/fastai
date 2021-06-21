@@ -409,7 +409,7 @@ Need to adapt to new dataset.
 
 
 
-## Pytorch Text generator with character level LSTM
+## Pytorch Text generator with character level LSTM - baby names
 
 https://www.youtube.com/watch?v=WujVlF_6h5A&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=33
 
