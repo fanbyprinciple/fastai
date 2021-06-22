@@ -425,8 +425,9 @@ Many errors still, need to look at generate function and rnn.
 
 ![](pytorch_text_1_many_errors.png)
 
+Its working now mismatched parameters were the issue.
 
-
+![](pytorch_text_1_output.png)
 
 
 
