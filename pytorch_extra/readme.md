@@ -429,8 +429,32 @@ Its working now mismatched parameters were the issue.
 
 ![](pytorch_text_1_output.png)
 
+## Pytorch torchtext tutorial
 
+basic need of text preprocessing
 
+1. test/ train split
+
+2. creating vocabulary
+
+3. creating embedding lookup - map each sentences to word vectors
+
+4. file loading
+
+5. tokenisation
+
+6. Numericalise indexify every character to be mapped to a number
+
+7. word vector - either initialise the vocabulary randomly or load from pretrained embedding
+ 
+ ![](pytorch_text_2_loading_dataset.png)
+
+Now make a network from here: https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/more_advanced/torchtext/torchtext_tutorial1.py
+
+https://www.kaggle.com/fanbyprinciple/pytorchtext-1-loading-custom-dataset-with-csv/edit
+
+Reference:
+https://www.youtube.com/watch?v=InUqeaOSPpA&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=35
 
 
 
