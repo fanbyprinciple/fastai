@@ -453,8 +453,13 @@ Now make a network from here: https://github.com/aladdinpersson/Machine-Learning
 
 https://www.kaggle.com/fanbyprinciple/pytorchtext-1-loading-custom-dataset-with-csv/edit
 
-Reference:
+The output of an RNN LSTM model:
+![](pytorch_text_2_result.png)
+
+Next video in the series:
 https://www.youtube.com/watch?v=InUqeaOSPpA&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=35
+
+
 
 
 
