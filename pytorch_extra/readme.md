@@ -459,7 +459,11 @@ The output of an RNN LSTM model:
 Next video in the series:
 https://www.youtube.com/watch?v=InUqeaOSPpA&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz&index=35
 
+## Non Max suppression tutorial
 
+This is used in object detection.
+
+![](nms_test.png)
 
 
 
