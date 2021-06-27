@@ -465,6 +465,16 @@ This is used in object detection.
 
 ![](nms_test.png)
 
+## kaggle - Google landmarks detection
+
+Dataset loaded
+
+![](kaggle_landmark_detection_dataset.png)
+
+https://www.kaggle.com/fanbyprinciple/simple-cnn-for-landmark-detection/edit
+
+
+
 
 
 
