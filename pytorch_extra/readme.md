@@ -407,6 +407,12 @@ Need to adapt to new dataset.
 
 ## Tensorboard tutorial
 
+Debugging tensorboard in kaggle
+
+Made a cnn
+![](tensorboard1.png)
+
+https://www.kaggle.com/fanbyprinciple/simple-cnn-with-tensorboard/edit
 
 
 ## Pytorch Text generator with character level LSTM - baby names
@@ -472,6 +478,8 @@ Dataset loaded
 ![](kaggle_landmark_detection_dataset.png)
 
 https://www.kaggle.com/fanbyprinciple/simple-cnn-for-landmark-detection/edit
+
+
 
 
 
