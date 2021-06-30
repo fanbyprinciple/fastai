@@ -60,3 +60,7 @@ https://www.kaggle.com/fanbyprinciple/pytorch-blitz-tutorial/
 https://www.kaggle.com/fanbyprinciple/cifar-10-explanation-with-pytorch/
 
 ![](./extra/cifar10.png)
+
+1. Fastai TPS
+
+![](./extra/tps21.png)
