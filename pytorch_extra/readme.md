@@ -479,6 +479,12 @@ Dataset loaded
 
 https://www.kaggle.com/fanbyprinciple/simple-cnn-for-landmark-detection/edit
 
+## Hugging face 
+
+![](hugging_face.png)
+
+-need to work on offline 
+-integrate with ocr
 
 
 
